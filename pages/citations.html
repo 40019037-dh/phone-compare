@@ -1,0 +1,588 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Citations - Phones Compare</title>
+    <link rel="stylesheet" href="../stylesheet.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="icon" href="../assets/logo.png" type="image/png">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700;800&family=Space+Mono:wght@400;700&display=swap"
+        rel="stylesheet">
+
+    <style>
+        /* ── Page-scoped overrides ───────────────────────────── */
+        .citations-hero {
+            padding: 4rem 2rem 3rem;
+            text-align: center;
+        }
+
+        .citations-hero h1 {
+            font-family: 'Outfit', sans-serif;
+            font-size: clamp(2.2rem, 5vw, 3.4rem);
+            font-weight: 800;
+            color: #f0f4ff;
+            line-height: 1.15;
+            margin-bottom: 0.75rem;
+        }
+
+        .citations-hero h1 .gradient-text {
+            background: linear-gradient(135deg, #4fa3ff 0%, #a78bfa 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .citations-hero p {
+            color: #94a3b8;
+            font-size: 1.05rem;
+            max-width: 520px;
+            margin: 0 auto;
+        }
+
+        /* ── Layout wrapper ─────────────────────────────────── */
+        .citations-wrapper {
+            max-width: 1060px;
+            margin: 0 auto;
+            padding: 0 1.5rem 5rem;
+            display: flex;
+            flex-direction: column;
+            gap: 3rem;
+        }
+
+        /* ── Section heading ────────────────────────────────── */
+        .section-heading {
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+            margin-bottom: 1.4rem;
+        }
+
+        .section-heading .pill {
+            font-family: 'Space Mono', monospace;
+            font-size: 0.65rem;
+            letter-spacing: 0.12em;
+            text-transform: uppercase;
+            color: #4fa3ff;
+            background: rgba(79, 163, 255, 0.1);
+            border: 1px solid rgba(79, 163, 255, 0.25);
+            border-radius: 20px;
+            padding: 0.25rem 0.75rem;
+            white-space: nowrap;
+        }
+
+        .section-heading h2 {
+            font-family: 'Outfit', sans-serif;
+            font-size: 1.35rem;
+            font-weight: 700;
+            color: #e2e8f0;
+            margin: 0;
+        }
+
+        .section-divider {
+            flex: 1;
+            height: 1px;
+            background: linear-gradient(to right, rgba(79, 163, 255, 0.2), transparent);
+        }
+
+        /* ── Source highlight card (GSMArena) ───────────────── */
+        .source-highlight {
+            position: relative;
+            background: linear-gradient(135deg, rgba(79, 163, 255, 0.08) 0%, rgba(167, 139, 250, 0.06) 100%);
+            border: 1px solid rgba(79, 163, 255, 0.3);
+            border-radius: 16px;
+            padding: 1.75rem 2rem;
+            display: flex;
+            gap: 1.5rem;
+            align-items: flex-start;
+            overflow: hidden;
+        }
+
+        .source-highlight::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 2px;
+            background: linear-gradient(90deg, #4fa3ff, #a78bfa);
+        }
+
+        .source-highlight-badge {
+            flex-shrink: 0;
+            width: 52px;
+            height: 52px;
+            border-radius: 12px;
+            background: linear-gradient(135deg, #4fa3ff, #a78bfa);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.4rem;
+        }
+
+        .source-highlight-body h3 {
+            font-family: 'Outfit', sans-serif;
+            font-size: 1.1rem;
+            font-weight: 700;
+            color: #f0f4ff;
+            margin: 0 0 0.3rem;
+        }
+
+        .source-highlight-body p {
+            color: #94a3b8;
+            font-size: 0.9rem;
+            margin: 0 0 0.9rem;
+            line-height: 1.6;
+        }
+
+        .source-tag {
+            display: inline-block;
+            font-family: 'Space Mono', monospace;
+            font-size: 0.6rem;
+            letter-spacing: 0.1em;
+            text-transform: uppercase;
+            background: rgba(79, 163, 255, 0.15);
+            color: #4fa3ff;
+            border: 1px solid rgba(79, 163, 255, 0.3);
+            border-radius: 6px;
+            padding: 0.2rem 0.55rem;
+            margin-right: 0.4rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .source-tag.purple {
+            background: rgba(167, 139, 250, 0.12);
+            color: #a78bfa;
+            border-color: rgba(167, 139, 250, 0.25);
+        }
+
+        .btn-source {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.4rem;
+            margin-top: 0.6rem;
+            padding: 0.5rem 1.1rem;
+            background: rgba(79, 163, 255, 0.12);
+            border: 1px solid rgba(79, 163, 255, 0.35);
+            border-radius: 8px;
+            color: #4fa3ff;
+            font-family: 'Outfit', sans-serif;
+            font-size: 0.88rem;
+            font-weight: 600;
+            text-decoration: none;
+            transition: background 0.2s, border-color 0.2s, transform 0.15s;
+        }
+
+        .btn-source:hover {
+            background: rgba(79, 163, 255, 0.22);
+            border-color: rgba(79, 163, 255, 0.6);
+            transform: translateY(-1px);
+        }
+
+        .btn-source svg {
+            width: 14px;
+            height: 14px;
+            stroke: currentColor;
+            fill: none;
+        }
+
+        /* ── Brand grid ─────────────────────────────────────── */
+        .brand-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+            gap: 1rem;
+        }
+
+        .brand-card {
+            background: rgba(255, 255, 255, 0.03);
+            border: 1px solid rgba(255, 255, 255, 0.07);
+            border-radius: 14px;
+            padding: 1.25rem 1.25rem 1rem;
+            display: flex;
+            flex-direction: column;
+            gap: 0.5rem;
+            transition: border-color 0.2s, background 0.2s, transform 0.2s;
+        }
+
+        .brand-card:hover {
+            border-color: rgba(79, 163, 255, 0.3);
+            background: rgba(79, 163, 255, 0.05);
+            transform: translateY(-2px);
+        }
+
+        .brand-card-icon {
+            width: 40px;
+            height: 40px;
+            border-radius: 10px;
+            background: rgba(255, 255, 255, 0.06);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 0.25rem;
+            overflow: hidden;
+            flex-shrink: 0;
+        }
+
+        .brand-card-icon img {
+            width: 26px;
+            height: 26px;
+            object-fit: contain;
+            filter: brightness(1.1);
+        }
+
+        .brand-card h3 {
+            font-family: 'Outfit', sans-serif;
+            font-size: 0.95rem;
+            font-weight: 700;
+            color: #e2e8f0;
+            margin: 0;
+        }
+
+        .brand-card p {
+            font-size: 0.78rem;
+            color: #64748b;
+            margin: 0;
+            line-height: 1.4;
+        }
+
+        .brand-card a {
+            margin-top: auto;
+            display: inline-flex;
+            align-items: center;
+            gap: 0.3rem;
+            font-family: 'Outfit', sans-serif;
+            font-size: 0.82rem;
+            font-weight: 600;
+            color: #4fa3ff;
+            text-decoration: none;
+            padding-top: 0.5rem;
+            transition: gap 0.15s;
+        }
+
+        .brand-card a:hover {
+            gap: 0.55rem;
+        }
+
+        .brand-card a svg {
+            width: 12px;
+            height: 12px;
+            stroke: currentColor;
+            fill: none;
+            flex-shrink: 0;
+        }
+
+        /* ── Info note ──────────────────────────────────────── */
+        .info-note {
+            background: rgba(248, 196, 113, 0.06);
+            border: 1px solid rgba(248, 196, 113, 0.2);
+            border-radius: 10px;
+            padding: 0.9rem 1.1rem;
+            display: flex;
+            gap: 0.7rem;
+            align-items: flex-start;
+            color: #c4a35a;
+            font-size: 0.85rem;
+            line-height: 1.55;
+        }
+
+        .info-note .note-icon {
+            font-size: 1rem;
+            flex-shrink: 0;
+            margin-top: 0.05rem;
+        }
+
+        /* ── Responsive ─────────────────────────────────────── */
+        @media (max-width: 620px) {
+            .source-highlight {
+                flex-direction: column;
+                gap: 1rem;
+            }
+
+            .brand-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="logo">
+            <img src="../assets/logo.png" alt="Website logo">
+            <span class="logo-text">Phones<span class="accent">Compare</span></span>
+        </div>
+        <nav class="nav-bar">
+            <a href="../index.html" class="nav-link">Home</a>
+            <a href="phones.html" class="nav-link">Browse</a>
+            <a href="compare.html" class="nav-link">Compare</a>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero -->
+        <div class="citations-hero">
+            <h1>Sources &amp; <span class="gradient-text">Citations</span></h1>
+            <p>Links to every brand store and the external sources used to build this site.</p>
+        </div>
+
+        <div class="citations-wrapper">
+
+            <!-- ── Image sources ─────────────────────────── -->
+            <div>
+                <div class="section-heading">
+                    <span class="pill">Images</span>
+                    <h2>Phone Image Sources</h2>
+                    <div class="section-divider"></div>
+                </div>
+
+                <!-- GSMArena highlight -->
+                <div class="source-highlight">
+                    <div class="source-highlight-badge">📸</div>
+                    <div class="source-highlight-body">
+                        <h3>GSMArena</h3>
+                        <p>
+                            All product images displayed across Phones Compare are sourced from
+                            GSMArena — the world's leading independent mobile phone database.
+                            GSMArena hosts detailed specs and official press imagery for
+                            thousands of devices.
+                        </p>
+                        <div>
+                            <span class="source-tag">Primary image source</span>
+                            <span class="source-tag purple">Press photography</span>
+                            <span class="source-tag">Spec data reference</span>
+                        </div>
+                        <a class="btn-source" href="https://www.gsmarena.com" target="_blank" rel="noopener">
+                            Visit GSMArena
+                            <svg viewBox="0 0 24 24" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6" />
+                                <polyline points="15 3 21 3 21 9" />
+                                <line x1="10" y1="14" x2="21" y2="3" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="info-note" style="margin-top:1rem;">
+                    <span class="note-icon">ℹ️</span>
+                    <span>
+                        Images are used here for educational and informational purposes only.
+                        All images remain the property of their respective manufacturers and GSMArena.
+                    </span>
+                </div>
+            </div>
+
+            <!-- ── Brand stores ──────────────────────────── -->
+            <div>
+                <div class="section-heading">
+                    <span class="pill">Retailers</span>
+                    <h2>Official Brand Stores</h2>
+                    <div class="section-divider"></div>
+                </div>
+
+                <div class="brand-grid">
+
+                    <div class="brand-card">
+                        <div class="brand-card-icon">
+                            <img src="../assets/brands/apple.svg" alt="Apple logo"
+                                onerror="this.style.display='none'">
+                            </div>
+                        <h3>Apple</h3>
+                        <p>iPhones and accessories from Apple UK</p>
+                        <a href="https://www.apple.com/uk/store" target="_blank" rel="noopener">Shop Apple <svg
+                                viewBox="0 0 24 24" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                                <line x1="5" y1="12" x2="19" y2="12" />
+                                <polyline points="12 5 19 12 12 19" />
+                            </svg></a>
+                    </div>
+
+                    <div class="brand-card">
+                        <div class="brand-card-icon">
+                            <img src="../assets/brands/asus.svg" alt="Asus logo"
+                                onerror="this.style.display='none'">
+                            </div>
+                        <h3>Asus</h3>
+                        <p>ROG Phone &amp; Zenfone series</p>
+                        <a href="https://www.asus.com/uk/phones/" target="_blank" rel="noopener">Shop Asus <svg
+                                viewBox="0 0 24 24" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                                <line x1="5" y1="12" x2="19" y2="12" />
+                                <polyline points="12 5 19 12 12 19" />
+                            </svg></a>
+                    </div>
+
+                    <div class="brand-card">
+                        <div class="brand-card-icon">
+                            <img src="../assets/brands/google.svg" alt="Google logo"
+                                onerror="this.style.display='none'">
+                            </div>
+                        <h3>Google</h3>
+                        <p>Pixel phones &amp; Nest devices</p>
+                        <a href="https://store.google.com/gb/" target="_blank" rel="noopener">Shop Google <svg
+                                viewBox="0 0 24 24" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                                <line x1="5" y1="12" x2="19" y2="12" />
+                                <polyline points="12 5 19 12 12 19" />
+                            </svg></a>
+                    </div>
+
+                    <div class="brand-card">
+                        <div class="brand-card-icon">
+                            <img src="../assets/brands/honor.svg" alt="Honor logo"
+                                onerror="this.style.display='none'">
+                        </div>
+                        <h3>Honor</h3>
+                        <p>Honor Magic &amp; X-series phones</p>
+                        <a href="https://www.hihonor.com/uk/" target="_blank" rel="noopener">Shop Honor <svg
+                                viewBox="0 0 24 24" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                                <line x1="5" y1="12" x2="19" y2="12" />
+                                <polyline points="12 5 19 12 12 19" />
+                            </svg></a>
+                    </div>
+
+                    <div class="brand-card">
+                        <div class="brand-card-icon">
+                            <img src="../assets/brands/motorola.svg" alt="Motorola logo" onerror="this.style.display='none'">
+                        </div>
+                        <h3>Motorola</h3>
+                        <p>Moto G, Edge &amp; Razr series</p>
+                        <a href="https://www.motorola.com/uk/" target="_blank" rel="noopener">Shop Motorola <svg
+                                viewBox="0 0 24 24" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                                <line x1="5" y1="12" x2="19" y2="12" />
+                                <polyline points="12 5 19 12 12 19" />
+                            </svg></a>
+                    </div>
+
+                    <div class="brand-card">
+                        <div class="brand-card-icon">
+                            <img src="../assets/brands/nothing.svg" alt="Nothing logo" onerror="this.style.display='none'">
+                        </div>
+                        <h3>Nothing</h3>
+                        <p>Nothing Phone glyph-interface devices</p>
+                        <a href="https://nothing.tech/en-gb/" target="_blank" rel="noopener">Shop Nothing <svg
+                                viewBox="0 0 24 24" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                                <line x1="5" y1="12" x2="19" y2="12" />
+                                <polyline points="12 5 19 12 12 19" />
+                            </svg></a>
+                    </div>
+
+                    <div class="brand-card">
+                        <div class="brand-card-icon">
+                            <img src="../assets/brands/oneplus.svg" alt="OnePlus logo"
+                                onerror="this.style.display='none'">
+                        </div>
+                        <h3>OnePlus</h3>
+                        <p>Flagship &amp; mid-range OnePlus phones</p>
+                        <a href="https://www.oneplus.com/uk" target="_blank" rel="noopener">Shop OnePlus <svg
+                                viewBox="0 0 24 24" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                                <line x1="5" y1="12" x2="19" y2="12" />
+                                <polyline points="12 5 19 12 12 19" />
+                            </svg></a>
+                    </div>
+
+                    <div class="brand-card">
+                        <div class="brand-card-icon">
+                            <img src="../assets/brands/oppo.svg" alt="Oppo logo"
+                                onerror="this.style.display='none'">
+                        </div>
+                        <h3>Oppo</h3>
+                        <p>Find X &amp; Reno smartphone series</p>
+                        <a href="https://www.oppo.com/en/smartphones/" target="_blank" rel="noopener">Shop Oppo <svg
+                                viewBox="0 0 24 24" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                                <line x1="5" y1="12" x2="19" y2="12" />
+                                <polyline points="12 5 19 12 12 19" />
+                            </svg></a>
+                    </div>
+
+                    <div class="brand-card">
+                        <div class="brand-card-icon">
+                            <img src="../assets/brands/realme.svg" alt="Realme logo"
+                                onerror="this.style.display='none'">
+                        </div>
+                        <h3>Realme</h3>
+                        <p>Realme GT &amp; Narzo series</p>
+                        <a href="https://www.realme.com/uk/" target="_blank" rel="noopener">Shop Realme <svg
+                                viewBox="0 0 24 24" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                                <line x1="5" y1="12" x2="19" y2="12" />
+                                <polyline points="12 5 19 12 12 19" />
+                            </svg></a>
+                    </div>
+
+                    <div class="brand-card">
+                        <div class="brand-card-icon">
+                            <img src="../assets/brands/samsung.svg" alt="Samsung logo"
+                                onerror="this.style.display='none'">
+                        </div>
+                        <h3>Samsung</h3>
+                        <p>Galaxy smartphones &amp; tablets</p>
+                        <a href="https://www.samsung.com/uk/" target="_blank" rel="noopener">Shop Samsung <svg
+                                viewBox="0 0 24 24" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                                <line x1="5" y1="12" x2="19" y2="12" />
+                                <polyline points="12 5 19 12 12 19" />
+                            </svg></a>
+                    </div>
+
+                    <div class="brand-card">
+                        <div class="brand-card-icon">
+                            <img src="../assets/brands/sony.svg" alt="Sony logo"
+                                onerror="this.style.display='none'">
+                        </div>
+                        <h3>Sony</h3>
+                        <p>Xperia smartphones &amp; accessories</p>
+                        <a href="https://www.sony.co.uk/en/smartphones" target="_blank" rel="noopener">Shop Sony <svg
+                                viewBox="0 0 24 24" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                                <line x1="5" y1="12" x2="19" y2="12" />
+                                <polyline points="12 5 19 12 12 19" />
+                            </svg></a>
+                    </div>
+
+                    <div class="brand-card">
+                        <div class="brand-card-icon">
+                            <img src="../assets/brands/vivo.svg" alt="Vivo logo"
+                                onerror="this.style.display='none'">
+                        </div>
+                        <h3>Vivo</h3>
+                        <p>Vivo X &amp; V-series smartphones</p>
+                        <a href="https://www.vivo.com/en/" target="_blank" rel="noopener">Shop Vivo <svg
+                                viewBox="0 0 24 24" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                                <line x1="5" y1="12" x2="19" y2="12" />
+                                <polyline points="12 5 19 12 12 19" />
+                            </svg></a>
+                    </div>
+
+                    <div class="brand-card">
+                        <div class="brand-card-icon">
+                            <img src="../assets/brands/xiaomi.svg" alt="Xiaomi logo"
+                                onerror="this.style.display='none'">
+                        </div>
+                        <h3>Xiaomi</h3>
+                        <p>Xiaomi, Redmi &amp; POCO phones</p>
+                        <a href="https://www.mi.com/uk" target="_blank" rel="noopener">Shop Xiaomi <svg
+                                viewBox="0 0 24 24" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                                <line x1="5" y1="12" x2="19" y2="12" />
+                                <polyline points="12 5 19 12 12 19" />
+                            </svg></a>
+                    </div>
+
+                </div>
+            </div>
+
+        </div><!-- /citations-wrapper -->
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-links">
+                <a href="popular-brands.html" class="footer-link">Popular Brands</a>
+                <a href="history.html" class="footer-link">Smartphone History</a>
+                <a href="citations.html" class="footer-link">Citations</a>
+                <a href="about.html" class="footer-link">About</a>
+            </div>
+            <p class="footer-text">© 2026 Phones Compare. Making phone shopping simple.</p>
+        </div>
+    </footer>
+
+</body>
+
+</html>

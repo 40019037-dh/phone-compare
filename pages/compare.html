@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Compare - Phones Compare</title>
+    <link rel="stylesheet" href="../stylesheet.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="icon" href="../assets/logo.png" type="image/png">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700;800&family=Space+Mono:wght@400;700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="logo">
+            <img src="../assets/logo.png" alt="Website logo">
+            <span class="logo-text">Phones<span class="accent">Compare</span></span>
+        </div>
+
+        <nav class="nav-bar">
+            <a href="../index.html" class="nav-link">Home</a>
+            <a href="phones.html" class="nav-link">Browse</a>
+            <a href="compare.html" class="nav-link active">Compare</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    <span class="title-line">Compare Phones</span>
+                    <span class="title-line gradient-text">Side by Side</span>
+                </h1>
+                <p class="hero-subtitle">Select phones to compare specs, features, and pricing</p>
+            </div>
+            <div class="hero-decoration"></div>
+        </section>
+
+        <section class="content-section">
+            <div class="content-card">
+                <div class="card-header">
+                    <h2>Phone Comparison</h2>
+                    <div class="card-accent"></div>
+                    <p class="results-count">Cells highlighted in <strong>bold</strong> differ between phones</p>
+                </div>
+
+                <!-- Comparison table rendered by loader.js / ComparePageUI -->
+                <div id="compare-container" class="card-content">
+                    <div class="loading">Loading comparison...</div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-links">
+                <a href="popular-brands.html" class="footer-link">Popular Brands</a>
+                <a href="history.html" class="footer-link">Smartphone History</a>
+                <a href="citations.html" class="footer-link">Citations</a>
+                <a href="about.html" class="footer-link">About</a>
+            </div>
+            <p class="footer-text">© 2026 Phones Compare. Making phone shopping simple.</p>
+        </div>
+    </footer>
+
+    <script src="../js/loader.js"></script>
+</body>
+
+</html>

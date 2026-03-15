@@ -1,0 +1,6131 @@
+{
+  "priceRanges": [
+    {
+      "label": "Under £500",
+      "min": 0,
+      "max": 499
+    },
+    {
+      "label": "£500 - £799",
+      "min": 500,
+      "max": 799
+    },
+    {
+      "label": "£800 - £999",
+      "min": 800,
+      "max": 999
+    },
+    {
+      "label": "£1000 - £1999",
+      "min": 1000,
+      "max": 1999
+    },
+    {
+      "label": "£2000 and above",
+      "min": 2000,
+      "max": 99999
+    }
+  ],
+  "phones": [
+    {
+      "id": 1,
+      "brand": "Apple",
+      "model": "iPhone 14",
+      "price": 699,
+      "releaseDate": "2022-09-16",
+      "image": "https://fdn2.gsmarena.com/vv/pics/apple/apple-iphone-14-1.jpg",
+      "specs": {
+        "display": {
+          "size": "6.1 inches",
+          "type": "OLED",
+          "resolution": "2532 x 1170",
+          "refreshRate": "60Hz"
+        },
+        "processor": "A15 Bionic",
+        "ram": "6GB",
+        "storage": [
+          "128GB",
+          "256GB",
+          "512GB"
+        ],
+        "camera": {
+          "main": "12MP",
+          "ultraWide": "12MP",
+          "telephoto": "N/A",
+          "front": "12MP"
+        },
+        "battery": {
+          "capacity": "3279 mAh",
+          "charging": "20W wired, 15W MagSafe wireless"
+        },
+        "os": "iOS 16",
+        "connectivity": [
+          "5G",
+          "Wi-Fi 6",
+          "Bluetooth 5.3",
+          "Lightning"
+        ],
+        "waterResistance": "IP68"
+      },
+      "colors": [
+        "Midnight",
+        "Starlight",
+        "Blue",
+        "Purple",
+        "Yellow",
+        "Red"
+      ],
+      "weight": "172g",
+      "dimensions": "146.7 x 71.5 x 7.8 mm",
+      "features": [
+        "Crash Detection",
+        "Photonic Engine"
+      ]
+    },
+    {
+      "id": 2,
+      "brand": "Apple",
+      "model": "iPhone 14 Plus",
+      "price": 799,
+      "releaseDate": "2022-10-07",
+      "image": "https://fdn2.gsmarena.com/vv/pics/apple/apple-iphone-14-plus-1.jpg",
+      "specs": {
+        "display": {
+          "size": "6.7 inches",
+          "type": "OLED",
+          "resolution": "2778 x 1284",
+          "refreshRate": "60Hz"
+        },
+        "processor": "A15 Bionic",
+        "ram": "6GB",
+        "storage": [
+          "128GB",
+          "256GB",
+          "512GB"
+        ],
+        "camera": {
+          "main": "12MP",
+          "ultraWide": "12MP",
+          "telephoto": "N/A",
+          "front": "12MP"
+        },
+        "battery": {
+          "capacity": "4325 mAh",
+          "charging": "20W wired, 15W MagSafe wireless"
+        },
+        "os": "iOS 16",
+        "connectivity": [
+          "5G",
+          "Wi-Fi 6",
+          "Bluetooth 5.3",
+          "Lightning"
+        ],
+        "waterResistance": "IP68"
+      },
+      "colors": [
+        "Midnight",
+        "Starlight",
+        "Blue",
+        "Purple",
+        "Yellow",
+        "Red"
+      ],
+      "weight": "203g",
+      "dimensions": "160.8 x 78.1 x 7.8 mm",
+      "features": [
+        "Crash Detection",
+        "Large battery"
+      ]
+    },
+    {
+      "id": 3,
+      "brand": "Apple",
+      "model": "iPhone 15",
+      "price": 799,
+      "releaseDate": "2023-09-22",
+      "image": "https://fdn2.gsmarena.com/vv/pics/apple/apple-iphone-15-1.jpg",
+      "specs": {
+        "display": {
+          "size": "6.1 inches",
+          "type": "OLED",
+          "resolution": "2556 x 1179",
+          "refreshRate": "60Hz"
+        },
+        "processor": "A16 Bionic",
+        "ram": "6GB",
+        "storage": [
+          "128GB",
+          "256GB",
+          "512GB"
+        ],
+        "camera": {
+          "main": "48MP",
+          "ultraWide": "12MP",
+          "telephoto": "N/A",
+          "front": "12MP"
+        },
+        "battery": {
+          "capacity": "3349 mAh",
+          "charging": "20W wired, 15W MagSafe wireless"
+        },
+        "os": "iOS 17",
+        "connectivity": [
+          "5G",
+          "Wi-Fi 6",
+          "Bluetooth 5.3",
+          "USB-C"
+        ],
+        "waterResistance": "IP68"
+      },
+      "colors": [
+        "Pink",
+        "Yellow",
+        "Green",
+        "Blue",
+        "Black"
+      ],
+      "weight": "171g",
+      "dimensions": "147.6 x 71.6 x 7.8 mm"
+    },
+    {
+      "id": 4,
+      "brand": "Apple",
+      "model": "iPhone 15 Plus",
+      "price": 899,
+      "releaseDate": "2023-09-22",
+      "image": "https://fdn2.gsmarena.com/vv/pics/apple/apple-iphone-15-plus-1.jpg",
+      "specs": {
+        "display": {
+          "size": "6.7 inches",
+          "type": "OLED",
+          "resolution": "2796 x 1290",
+          "refreshRate": "60Hz"
+        },
+        "processor": "A16 Bionic",
+        "ram": "6GB",
+        "storage": [
+          "128GB",
+          "256GB",
+          "512GB"
+        ],
+        "camera": {
+          "main": "48MP",
+          "ultraWide": "12MP",
+          "telephoto": "N/A",
+          "front": "12MP"
+        },
+        "battery": {
+          "capacity": "4383 mAh",
+          "charging": "20W wired, 15W MagSafe wireless"
+        },
+        "os": "iOS 17",
+        "connectivity": [
+          "5G",
+          "Wi-Fi 6",
+          "Bluetooth 5.3",
+          "USB-C"
+        ],
+        "waterResistance": "IP68"
+      },
+      "colors": [
+        "Pink",
+        "Yellow",
+        "Green",
+        "Blue",
+        "Black"
+      ],
+      "weight": "201g",
+      "dimensions": "160.9 x 77.8 x 7.8 mm",
+      "features": [
+        "Dynamic Island",
+        "USB-C",
+        "Emergency SOS via satellite"
+      ]
+    },
+    {
+      "id": 5,
+      "brand": "Apple",
+      "model": "iPhone 15 Pro",
+      "price": 999,
+      "releaseDate": "2023-09-22",
+      "image": "https://fdn2.gsmarena.com/vv/pics/apple/apple-iphone-15-pro-1.jpg",
+      "specs": {
+        "display": {
+          "size": "6.1 inches",
+          "type": "OLED",
+          "resolution": "2556 x 1179",
+          "refreshRate": "120Hz"
+        },
+        "processor": "A17 Pro",
+        "ram": "8GB",
+        "storage": [
+          "128GB",
+          "256GB",
+          "512GB",
+          "1TB"
+        ],
+        "camera": {
+          "main": "48MP",
+          "ultraWide": "12MP",
+          "telephoto": "12MP (3x optical zoom)",
+          "front": "12MP"
+        },
+        "battery": {
+          "capacity": "3274 mAh",
+          "charging": "27W wired, 15W MagSafe wireless"
+        },
+        "os": "iOS 17",
+        "connectivity": [
+          "5G",
+          "Wi-Fi 6E",
+          "Bluetooth 5.3",
+          "USB-C (USB 3)"
+        ],
+        "waterResistance": "IP68"
+      },
+      "colors": [
+        "Natural Titanium",
+        "Blue Titanium",
+        "White Titanium",
+        "Black Titanium"
+      ],
+      "weight": "187g",
+      "dimensions": "146.6 x 70.6 x 8.25 mm",
+      "features": [
+        "Action button",
+        "Titanium frame",
+        "ProRes video"
+      ]
+    },
+    {
+      "id": 6,
+      "brand": "Apple",
+      "model": "iPhone 15 Pro Max",
+      "price": 1199,
+      "releaseDate": "2023-09-22",
+      "image": "https://fdn2.gsmarena.com/vv/pics/apple/apple-iphone-15-pro-max-1.jpg",
+      "specs": {
+        "display": {
+          "size": "6.7 inches",
+          "type": "OLED",
+          "resolution": "2796 x 1290",
+          "refreshRate": "120Hz"
+        },
+        "processor": "A17 Pro",
+        "ram": "8GB",
+        "storage": [
+          "256GB",
+          "512GB",
+          "1TB"
+        ],
+        "camera": {
+          "main": "48MP",
+          "ultraWide": "12MP",
+          "telephoto": "12MP (5x optical zoom)",
+          "front": "12MP"
+        },
+        "battery": {
+          "capacity": "4441 mAh",
+          "charging": "27W wired, 15W MagSafe wireless"
+        },
+        "os": "iOS 17",
+        "connectivity": [
+          "5G",
+          "Wi-Fi 6E",
+          "Bluetooth 5.3",
+          "USB-C"
+        ],
+        "waterResistance": "IP68"
+      },
+      "colors": [
+        "Natural Titanium",
+        "Blue Titanium",
+        "White Titanium",
+        "Black Titanium"
+      ],
+      "weight": "221g",
+      "dimensions": "159.9 x 76.7 x 8.25 mm"
+    },
+    {
+      "id": 7,
+      "brand": "Apple",
+      "model": "iPhone 16",
+      "price": 849,
+      "releaseDate": "2024-09-20",
+      "image": "https://fdn2.gsmarena.com/vv/pics/apple/apple-iphone-16-1.jpg",
+      "specs": {
+        "display": {
+          "size": "6.1 inches",
+          "type": "Super Retina XDR OLED",
+          "resolution": "2556 x 1179",
+          "refreshRate": "60Hz"
+        },
+        "processor": "A18",
+        "ram": "8GB",
+        "storage": [
+          "128GB",
+          "256GB",
+          "512GB"
+        ],
+        "camera": {
+          "main": "48MP (Fusion)",
+          "ultraWide": "12MP",
+          "telephoto": "N/A",
+          "front": "12MP"
+        },
+        "battery": {
+          "capacity": "3561 mAh",
+          "charging": "25W wired, 25W MagSafe wireless"
+        },
+        "os": "iOS 18",
+        "connectivity": [
+          "5G",
+          "Wi-Fi 7",
+          "Bluetooth 5.3",
+          "USB-C"
+        ],
+        "waterResistance": "IP68"
+      },
+      "colors": [
+        "Black",
+        "White",
+        "Pink",
+        "Teal",
+        "Ultramarine"
+      ],
+      "weight": "170g",
+      "dimensions": "147.6 x 71.6 x 7.8 mm",
+      "features": [
+        "Camera Control button",
+        "Apple Intelligence",
+        "Action button"
+      ]
+    },
+    {
+      "id": 8,
+      "brand": "Apple",
+      "model": "iPhone 16 Plus",
+      "price": 949,
+      "releaseDate": "2024-09-20",
+      "image": "https://fdn2.gsmarena.com/vv/pics/apple/apple-iphone-16-plus-1.jpg",
+      "specs": {
+        "display": {
+          "size": "6.7 inches",
+          "type": "Super Retina XDR OLED",
+          "resolution": "2796 x 1290",
+          "refreshRate": "60Hz"
+        },
+        "processor": "A18",
+        "ram": "8GB",
+        "storage": [
+          "128GB",
+          "256GB",
+          "512GB"
+        ],
+        "camera": {
+          "main": "48MP (Fusion)",
+          "ultraWide": "12MP",
+          "telephoto": "N/A",
+          "front": "12MP"
+        },
+        "battery": {
+          "capacity": "4674 mAh",
+          "charging": "25W wired, 25W MagSafe wireless"
+        },
+        "os": "iOS 18",
+        "connectivity": [
+          "5G",
+          "Wi-Fi 7",
+          "Bluetooth 5.3",
+          "USB-C"
+        ],
+        "waterResistance": "IP68"
+      },
+      "colors": [
+        "Black",
+        "White",
+        "Pink",
+        "Teal",
+        "Ultramarine"
+      ],
+      "weight": "199g",
+      "dimensions": "160.9 x 77.8 x 7.8 mm",
+      "features": [
+        "Camera Control button",
+        "Apple Intelligence",
+        "Action button"
+      ]
+    },
+    {
+      "id": 9,
+      "brand": "Apple",
+      "model": "iPhone 16 Pro",
+      "price": 1099,
+      "releaseDate": "2024-09-20",
+      "image": "https://fdn2.gsmarena.com/vv/pics/apple/apple-iphone-16-pro-1.jpg",
+      "specs": {
+        "display": {
+          "size": "6.3 inches",
+          "type": "Super Retina XDR OLED",
+          "resolution": "2622 x 1206",
+          "refreshRate": "120Hz"
+        },
+        "processor": "A18 Pro",
+        "ram": "8GB",
+        "storage": [
+          "128GB",
+          "256GB",
+          "512GB",
+          "1TB"
+        ],
+        "camera": {
+          "main": "48MP (Fusion)",
+          "ultraWide": "48MP",
+          "telephoto": "12MP (5x optical zoom)",
+          "front": "12MP"
+        },
+        "battery": {
+          "capacity": "3582 mAh",
+          "charging": "27W wired, 25W MagSafe wireless"
+        },
+        "os": "iOS 18",
+        "connectivity": [
+          "5G",
+          "Wi-Fi 7",
+          "Bluetooth 5.3",
+          "USB-C (USB 3)"
+        ],
+        "waterResistance": "IP68"
+      },
+      "colors": [
+        "Black Titanium",
+        "White Titanium",
+        "Natural Titanium",
+        "Desert Titanium"
+      ],
+      "weight": "199g",
+      "dimensions": "149.6 x 71.5 x 8.25 mm",
+      "features": [
+        "Camera Control button",
+        "Apple Intelligence",
+        "4K 120fps video"
+      ]
+    },
+    {
+      "id": 10,
+      "brand": "Apple",
+      "model": "iPhone 16 Pro Max",
+      "price": 1299,
+      "releaseDate": "2024-09-20",
+      "image": "https://fdn2.gsmarena.com/vv/pics/apple/apple-iphone-16-pro-max-1.jpg",
+      "specs": {
+        "display": {
+          "size": "6.9 inches",
+          "type": "Super Retina XDR OLED",
+          "resolution": "2868 x 1320",
+          "refreshRate": "120Hz"
+        },
+        "processor": "A18 Pro",
+        "ram": "8GB",
+        "storage": [
+          "256GB",
+          "512GB",
+          "1TB"
+        ],
+        "camera": {
+          "main": "48MP (Fusion)",
+          "ultraWide": "48MP",
+          "telephoto": "12MP (5x optical zoom)",
+          "front": "12MP"
+        },
+        "battery": {
+          "capacity": "4685 mAh",
+          "charging": "27W wired, 25W MagSafe wireless"
+        },
+        "os": "iOS 18",
+        "connectivity": [
+          "5G",
+          "Wi-Fi 7",
+          "Bluetooth 5.3",
+          "USB-C (USB 3)"
+        ],
+        "waterResistance": "IP68"
+      },
+      "colors": [
+        "Black Titanium",
+        "White Titanium",
+        "Natural Titanium",
+        "Desert Titanium"
+      ],
+      "weight": "227g",
+      "dimensions": "163.0 x 77.6 x 8.25 mm",
+      "features": [
+        "Camera Control button",
+        "Apple Intelligence",
+        "4K 120fps video"
+      ]
+    },
+    {
+      "id": 11,
+      "brand": "Apple",
+      "model": "iPhone 16e",
+      "price": 599,
+      "releaseDate": "2025-02-28",
+      "image": "https://fdn2.gsmarena.com/vv/pics/apple/apple-iphone-16e-1.jpg",
+      "specs": {
+        "display": {
+          "size": "6.1 inches",
+          "type": "Super Retina XDR OLED",
+          "resolution": "2532 x 1170",
+          "refreshRate": "60Hz"
+        },
+        "processor": "A18",
+        "ram": "8GB",
+        "storage": [
+          "128GB",
+          "256GB",
+          "512GB"
+        ],
+        "camera": {
+          "main": "48MP",
+          "ultraWide": "N/A",
+          "telephoto": "N/A",
+          "front": "12MP"
+        },
+        "battery": {
+          "capacity": "4005 mAh",
+          "charging": "20W wired, 7.5W wireless"
+        },
+        "os": "iOS 18",
+        "connectivity": [
+          "5G",
+          "Wi-Fi 6",
+          "Bluetooth 5.3",
+          "USB-C"
+        ],
+        "waterResistance": "IP68"
+      },
+      "colors": [
+        "Black",
+        "White"
+      ],
+      "weight": "167g",
+      "dimensions": "146.7 x 71.5 x 7.8 mm",
+      "features": [
+        "Apple Intelligence",
+        "Action button",
+        "C1 modem"
+      ]
+    },
+    {
+      "id": 12,
+      "brand": "Apple",
+      "model": "iPhone SE (2022)",
+      "price": 429,
+      "releaseDate": "2022-03-18",
+      "image": "https://fdn2.gsmarena.com/vv/pics/apple/apple-iphone-se-2022-1.jpg",
+      "specs": {
+        "display": {
+          "size": "4.7 inches",
+          "type": "Retina IPS LCD",
+          "resolution": "1334 x 750",
+          "refreshRate": "60Hz"
+        },
+        "processor": "A15 Bionic",
+        "ram": "4GB",
+        "storage": [
+          "64GB",
+          "128GB",
+          "256GB"
+        ],
+        "camera": {
+          "main": "12MP",
+          "ultraWide": "N/A",
+          "telephoto": "N/A",
+          "front": "7MP"
+        },
+        "battery": {
+          "capacity": "2018 mAh",
+          "charging": "20W wired, 7.5W wireless"
+        },
+        "os": "iOS 15",
+        "connectivity": [
+          "5G",
+          "Wi-Fi 6",
+          "Bluetooth 5.0",
+          "Lightning"
+        ],
+        "waterResistance": "IP67"
+      },
+      "colors": [
+        "Midnight",
+        "Starlight",
+        "Red"
+      ],
+      "weight": "144g",
+      "dimensions": "138.4 x 67.3 x 7.3 mm",
+      "features": [
+        "Touch ID",
+        "Compact design"
+      ]
+    },
+    {
+      "id": 13,
+      "brand": "Asus",
+      "model": "ROG Phone 8 Pro",
+      "price": 1099,
+      "releaseDate": "2024-01-18",
+      "image": "https://fdn2.gsmarena.com/vv/pics/asus/asus-rog-phone-8-pro-1.jpg",
+      "specs": {
+        "display": {
+          "size": "6.78 inches",
+          "type": "LTPO AMOLED",
+          "resolution": "2400 x 1080",
+          "refreshRate": "165Hz"
+        },
+        "processor": "Snapdragon 8 Gen 3",
+        "ram": "16GB",
+        "storage": [
+          "512GB",
+          "1TB"
+        ],
+        "camera": {
+          "main": "50MP",
+          "ultraWide": "13MP",
+          "telephoto": "32MP (3x optical zoom)",
+          "front": "32MP"
+        },
+        "battery": {
+          "capacity": "5500 mAh",
+          "charging": "65W wired, 15W wireless"
+        },
+        "os": "Android 14",
+        "connectivity": [
+          "5G",
+          "Wi-Fi 7",
+          "Bluetooth 5.3",
+          "USB-C"
+        ],
+        "waterResistance": "IP68"
+      },
+      "colors": [
+        "Phantom Black"
+      ],
+      "weight": "225g",
+      "dimensions": "163.8 x 76.8 x 8.9 mm",
+      "features": [
+        "AniMe Vision rear LEDs",
+        "Gaming accessories"
+      ]
+    },
+    {
+      "id": 14,
+      "brand": "Asus",
+      "model": "ROG Phone 9 Pro",
+      "price": 1199,
+      "releaseDate": "2024-11-20",
+      "image": "https://fdn2.gsmarena.com/vv/pics/asus/asus-rog-phone-9-pro-1.jpg",
+      "specs": {
+        "display": {
+          "size": "6.78 inches",
+          "type": "LTPO AMOLED",
+          "resolution": "2400 x 1080",
+          "refreshRate": "185Hz"
+        },
+        "processor": "Snapdragon 8 Elite",
+        "ram": "16GB",
+        "storage": [
+          "512GB",
+          "1TB"
+        ],
+        "camera": {
+          "main": "50MP",
+          "ultraWide": "13MP",
+          "telephoto": "32MP (3x optical zoom)",
+          "front": "32MP"
+        },
+        "battery": {
+          "capacity": "5800 mAh",
+          "charging": "65W wired, 15W wireless"
+        },
+        "os": "Android 15",
+        "connectivity": [
+          "5G",
+          "Wi-Fi 7",
+          "Bluetooth 5.4",
+          "USB-C"
+        ],
+        "waterResistance": "IP68"
+      },
+      "colors": [
+        "Phantom Black"
+      ],
+      "weight": "227g",
+      "dimensions": "163.8 x 76.8 x 8.9 mm",
+      "features": [
+        "AirTrigger controls",
+        "Gaming accessories"
+      ]
+    },
+    {
+      "id": 15,
+      "brand": "Asus",
+      "model": "Zenfone 10",
+      "price": 699,
+      "releaseDate": "2023-06-29",
+      "image": "https://fdn2.gsmarena.com/vv/bigpic/asus-zenfone10.jpg",
+      "specs": {
+        "display": {
+          "size": "5.92 inches",
+          "type": "AMOLED",
+          "resolution": "2400 x 1080",
+          "refreshRate": "144Hz"
+        },
+        "processor": "Snapdragon 8 Gen 2",
+        "ram": "8GB",
+        "storage": [
+          "128GB",
+          "256GB",
+          "512GB"
+        ],
+        "camera": {
+          "main": "50MP",
+          "ultraWide": "13MP",
+          "telephoto": "N/A",
+          "front": "32MP"
+        },
+        "battery": {
+          "capacity": "4300 mAh",
+          "charging": "30W wired, 15W wireless"
+        },
+        "os": "Android 13",
+        "connectivity": [
+          "5G",
+          "Wi-Fi 7",
+          "Bluetooth 5.3",
+          "USB-C"
+        ],
+        "waterResistance": "IP68"
+      },
+      "colors": [
+        "Black",
+        "Blue",
+        "Red",
+        "Green",
+        "White"
+      ],
+      "weight": "172g",
+      "dimensions": "146.5 x 68.1 x 9.4 mm",
+      "features": [
+        "Compact flagship",
+        "3.5mm headphone jack"
+      ]
+    },
+    {
+      "id": 16,
+      "brand": "Asus",
+      "model": "Zenfone 11 Ultra",
+      "price": 869,
+      "releaseDate": "2024-03-14",
+      "image": "https://fdn2.gsmarena.com/vv/pics/asus/asus-zenfone-11-ultra-1.jpg",
+      "specs": {
+        "display": {
+          "size": "6.78 inches",
+          "type": "LTPO AMOLED",
+          "resolution": "2400 x 1080",
+          "refreshRate": "144Hz"
+        },
+        "processor": "Snapdragon 8 Gen 3",
+        "ram": "12GB",
+        "storage": [
+          "256GB",
+          "512GB"
+        ],
+        "camera": {
+          "main": "50MP",
+          "ultraWide": "13MP",
+          "telephoto": "32MP (3x optical zoom)",
+          "front": "32MP"
+        },
+        "battery": {
+          "capacity": "5500 mAh",
+          "charging": "65W wired, 15W wireless"
+        },
+        "os": "Android 14",
+        "connectivity": [
+          "5G",
+          "Wi-Fi 7",
+          "Bluetooth 5.4",
+          "USB-C"
+        ],
+        "waterResistance": "IP68"
+      },
+      "colors": [
+        "Eternal Black",
+        "Misty Gray",
+        "Desert Sand",
+        "Skyline Blue"
+      ],
+      "weight": "224g",
+      "dimensions": "163.8 x 76.8 x 8.9 mm",
+      "features": [
+        "3.5mm headphone jack",
+        "Gimbal OIS"
+      ]
+    },
+    {
+      "id": 17,
+      "brand": "Google",
+      "model": "Pixel 6a",
+      "price": 299,
+      "releaseDate": "2022-07-28",
+      "image": "https://fdn2.gsmarena.com/vv/pics/google/google-pixel-6a-1.jpg",
+      "specs": {
+        "display": {
+          "size": "6.1 inches",
+          "type": "OLED",
+          "resolution": "2400 x 1080",
+          "refreshRate": "60Hz"
+        },
+        "processor": "Google Tensor",
+        "ram": "6GB",
+        "storage": [
+          "128GB"
+        ],
+        "camera": {
+          "main": "12.2MP",
+          "ultraWide": "12MP",
+          "telephoto": "N/A",
+          "front": "8MP"
+        },
+        "battery": {
+          "capacity": "4410 mAh",
+          "charging": "18W wired"
+        },
+        "os": "Android 12",
+        "connectivity": [
+          "5G",
+          "Wi-Fi 6E",
+          "Bluetooth 5.2",
+          "USB-C"
+        ],
+        "waterResistance": "IP67"
+      },
+      "colors": [
+        "Chalk",
+        "Charcoal",
+        "Sage"
+      ],
+      "weight": "178g",
+      "dimensions": "152.2 x 71.8 x 8.9 mm",
+      "features": [
+        "Compact size",
+        "Titan M2 security"
+      ]
+    },
+    {
+      "id": 18,
+      "brand": "Google",
+      "model": "Pixel 7",
+      "price": 599,
+      "releaseDate": "2022-10-13",
+      "image": "https://fdn2.gsmarena.com/vv/pics/google/google-pixel7-1.jpg",
+      "specs": {
+        "display": {
+          "size": "6.3 inches",
+          "type": "OLED",
+          "resolution": "2400 x 1080",
+          "refreshRate": "90Hz"
+        },
+        "processor": "Google Tensor G2",
+        "ram": "8GB",
+        "storage": [
+          "128GB",
+          "256GB"
+        ],
+        "camera": {
+          "main": "50MP",
+          "ultraWide": "12MP",
+          "telephoto": "N/A",
+          "front": "10.8MP"
+        },
+        "battery": {
+          "capacity": "4355 mAh",
+          "charging": "20W wired, 20W wireless"
+        },
+        "os": "Android 13",
+        "connectivity": [
+          "5G",
+          "Wi-Fi 6E",
+          "Bluetooth 5.2",
+          "USB-C"
+        ],
+        "waterResistance": "IP68"
+      },
+      "colors": [
+        "Obsidian",
+        "Snow",
+        "Lemongrass"
+      ],
+      "weight": "197g",
+      "dimensions": "155.6 x 73.2 x 8.7 mm",
+      "features": [
+        "Titan M2 security"
+      ]
+    },
+    {
+      "id": 19,
+      "brand": "Google",
+      "model": "Pixel 7 Pro",
+      "price": 849,
+      "releaseDate": "2022-10-13",
+      "image": "https://fdn2.gsmarena.com/vv/pics/google/google-pixel7-pro-1.jpg",
+      "specs": {
+        "display": {
+          "size": "6.7 inches",
+          "type": "LTPO AMOLED",
+          "resolution": "3120 x 1440",
+          "refreshRate": "120Hz"
+        },
+        "processor": "Google Tensor G2",
+        "ram": "12GB",
+        "storage": [
+          "128GB",
+          "256GB",
+          "512GB"
+        ],
+        "camera": {
+          "main": "50MP",
+          "ultraWide": "12MP",
+          "telephoto": "48MP (5x optical zoom)",
+          "front": "10.8MP"
+        },
+        "battery": {
+          "capacity": "5000 mAh",
+          "charging": "23W wired, 23W wireless"
+        },
+        "os": "Android 13",
+        "connectivity": [
+          "5G",
+          "Wi-Fi 6E",
+          "Bluetooth 5.2",
+          "USB-C"
+        ],
+        "waterResistance": "IP68"
+      },
+      "colors": [
+        "Obsidian",
+        "Snow",
+        "Hazel"
+      ],
+      "weight": "212g",
+      "dimensions": "162.9 x 76.6 x 8.9 mm",
+      "features": [
+        "Macro Focus",
+        "Face Unblur"
+      ]
+    },
+    {
+      "id": 20,
+      "brand": "Google",
+      "model": "Pixel 7a",
+      "price": 449,
+      "releaseDate": "2023-05-10",
+      "image": "https://fdn2.gsmarena.com/vv/pics/google/google-pixel-7a-1.jpg",
+      "specs": {
+        "display": {
+          "size": "6.1 inches",
+          "type": "OLED",
+          "resolution": "2400 x 1080",
+          "refreshRate": "90Hz"
+        },
+        "processor": "Google Tensor G2",
+        "ram": "8GB",
+        "storage": [
+          "128GB"
+        ],
+        "camera": {
+          "main": "64MP",
+          "ultraWide": "13MP",
+          "telephoto": "N/A",
+          "front": "13MP"
+        },
+        "battery": {
+          "capacity": "4385 mAh",
+          "charging": "18W wired, 7.5W wireless"
+        },
+        "os": "Android 13",
+        "connectivity": [
+          "5G",
+          "Wi-Fi 6E",
+          "Bluetooth 5.3",
+          "USB-C"
+        ],
+        "waterResistance": "IP67"
+      },
+      "colors": [
+        "Charcoal",
+        "Snow",
+        "Sea",
+        "Coral"
+      ],
+      "weight": "193.5g",
+      "dimensions": "152 x 72.9 x 9 mm",
+      "features": [
+        "Wireless charging",
+        "Titan M2 security"
+      ]
+    },
+    {
+      "id": 21,
+      "brand": "Google",
+      "model": "Pixel 8",
+      "price": 699,
+      "releaseDate": "2023-10-12",
+      "image": "https://fdn2.gsmarena.com/vv/pics/google/google-pixel-8-1.jpg",
+      "specs": {
+        "display": {
+          "size": "6.2 inches",
+          "type": "OLED",
+          "resolution": "2400 x 1080",
+          "refreshRate": "120Hz"
+        },
+        "processor": "Google Tensor G3",
+        "ram": "8GB",
+        "storage": [
+          "128GB",
+          "256GB"
+        ],
+        "camera": {
+          "main": "50MP",
+          "ultraWide": "12MP",
+          "telephoto": "N/A",
+          "front": "10.5MP"
+        },
+        "battery": {
+          "capacity": "4575 mAh",
+          "charging": "27W wired, 18W wireless"
+        },
+        "os": "Android 14",
+        "connectivity": [
+          "5G",
+          "Wi-Fi 6E",
+          "Bluetooth 5.3",
+          "USB-C"
+        ],
+        "waterResistance": "IP68"
+      },
+      "colors": [
+        "Obsidian",
+        "Hazel",
+        "Rose"
+      ],
+      "weight": "187g",
+      "dimensions": "150.5 x 70.8 x 8.9 mm",
+      "features": [
+        "7 years of updates",
+        "Magic Eraser",
+        "Best Take"
+      ]
+    },
+    {
+      "id": 22,
+      "brand": "Google",
+      "model": "Pixel 8 Pro",
+      "price": 999,
+      "releaseDate": "2023-10-12",
+      "image": "https://fdn2.gsmarena.com/vv/pics/google/google-pixel-8-pro-1.jpg",
+      "specs": {
+        "display": {
+          "size": "6.7 inches",
+          "type": "LTPO OLED",
+          "resolution": "2992 x 1344",
+          "refreshRate": "120Hz"
+        },
+        "processor": "Google Tensor G3",
+        "ram": "12GB",
+        "storage": [
+          "128GB",
+          "256GB",
+          "512GB"
+        ],
+        "camera": {
+          "main": "50MP",
+          "ultraWide": "48MP",
+          "telephoto": "48MP (5x optical zoom)",
+          "front": "10.5MP"
+        },
+        "battery": {
+          "capacity": "5050 mAh",
+          "charging": "30W wired, 23W wireless"
+        },
+        "os": "Android 14",
+        "connectivity": [
+          "5G",
+          "Wi-Fi 7",
+          "Bluetooth 5.3",
+          "USB-C"
+        ],
+        "waterResistance": "IP68"
+      },
+      "colors": [
+        "Obsidian",
+        "Porcelain",
+        "Bay"
+      ],
+      "weight": "213g",
+      "dimensions": "162.6 x 76.5 x 8.8 mm",
+      "features": [
+        "7 years of updates",
+        "Magic Eraser",
+        "Best Take"
+      ]
+    },
+    {
+      "id": 23,
+      "brand": "Google",
+      "model": "Pixel 8a",
+      "price": 499,
+      "releaseDate": "2024-05-14",
+      "image": "https://fdn2.gsmarena.com/vv/pics/google/google-pixel-8a-1.jpg",
+      "specs": {
+        "display": {
+          "size": "6.1 inches",
+          "type": "OLED",
+          "resolution": "2400 x 1080",
+          "refreshRate": "120Hz"
+        },
+        "processor": "Google Tensor G3",
+        "ram": "8GB",
+        "storage": [
+          "128GB",
+          "256GB"
+        ],
+        "camera": {
+          "main": "64MP",
+          "ultraWide": "13MP",
+          "telephoto": "N/A",
+          "front": "13MP"
+        },
+        "battery": {
+          "capacity": "4492 mAh",
+          "charging": "18W wired, 7.5W wireless"
+        },
+        "os": "Android 14",
+        "connectivity": [
+          "5G",
+          "Wi-Fi 6E",
+          "Bluetooth 5.3",
+          "USB-C"
+        ],
+        "waterResistance": "IP67"
+      },
+      "colors": [
+        "Obsidian",
+        "Porcelain",
+        "Bay",
+        "Aloe"
+      ],
+      "weight": "188g",
+      "dimensions": "152.1 x 72.7 x 8.9 mm",
+      "features": [
+        "7 years of updates",
+        "Magic Editor"
+      ]
+    },
+    {
+      "id": 24,
+      "brand": "Google",
+      "model": "Pixel 9",
+      "price": 799,
+      "releaseDate": "2024-08-22",
+      "image": "https://fdn2.gsmarena.com/vv/pics/google/google-pixel-9-1.jpg",
+      "specs": {
+        "display": {
+          "size": "6.3 inches",
+          "type": "OLED",
+          "resolution": "2424 x 1080",
+          "refreshRate": "120Hz"
+        },
+        "processor": "Google Tensor G4",
+        "ram": "12GB",
+        "storage": [
+          "128GB",
+          "256GB"
+        ],
+        "camera": {
+          "main": "50MP",
+          "ultraWide": "48MP",
+          "telephoto": "N/A",
+          "front": "10.5MP"
+        },
+        "battery": {
+          "capacity": "4700 mAh",
+          "charging": "27W wired, 21W wireless"
+        },
+        "os": "Android 14",
+        "connectivity": [
+          "5G",
+          "Wi-Fi 7",
+          "Bluetooth 5.3",
+          "USB-C"
+        ],
+        "waterResistance": "IP68"
+      },
+      "colors": [
+        "Obsidian",
+        "Porcelain",
+        "Wintergreen",
+        "Peony"
+      ],
+      "weight": "198g",
+      "dimensions": "152.9 x 72.0 x 8.5 mm",
+      "features": [
+        "7 years of updates",
+        "Gemini AI",
+        "Magic Eraser"
+      ]
+    },
+    {
+      "id": 25,
+      "brand": "Google",
+      "model": "Pixel 9 Pro",
+      "price": 1099,
+      "releaseDate": "2024-08-22",
+      "image": "https://fdn2.gsmarena.com/vv/pics/google/google-pixel-9-pro-1.jpg",
+      "specs": {
+        "display": {
+          "size": "6.3 inches",
+          "type": "LTPO OLED",
+          "resolution": "2856 x 1280",
+          "refreshRate": "120Hz"
+        },
+        "processor": "Google Tensor G4",
+        "ram": "16GB",
+        "storage": [
+          "128GB",
+          "256GB",
+          "512GB",
+          "1TB"
+        ],
+        "camera": {
+          "main": "50MP",
+          "ultraWide": "48MP",
+          "telephoto": "48MP (5x optical zoom)",
+          "front": "42MP"
+        },
+        "battery": {
+          "capacity": "4700 mAh",
+          "charging": "37W wired, 23W wireless"
+        },
+        "os": "Android 14",
+        "connectivity": [
+          "5G",
+          "Wi-Fi 7",
+          "Bluetooth 5.3",
+          "USB-C (USB 3.2)"
+        ],
+        "waterResistance": "IP68"
+      },
+      "colors": [
+        "Obsidian",
+        "Porcelain",
+        "Hazel",
+        "Rose Quartz"
+      ],
+      "weight": "199g",
+      "dimensions": "152.8 x 72.0 x 8.5 mm",
+      "features": [
+        "7 years of updates",
+        "Gemini AI",
+        "Add Me photo feature",
+        "Satellite connectivity"
+      ]
+    },
+    {
+      "id": 26,
+      "brand": "Google",
+      "model": "Pixel 9 Pro Fold",
+      "price": 1749,
+      "releaseDate": "2024-09-04",
+      "image": "https://fdn2.gsmarena.com/vv/pics/google/google-pixel-9-pro-fold-1.jpg",
+      "specs": {
+        "display": {
+          "size": "8.0 inches",
+          "type": "LTPO OLED",
+          "resolution": "2076 x 2152",
+          "refreshRate": "120Hz"
+        },
+        "processor": "Google Tensor G4",
+        "ram": "16GB",
+        "storage": [
+          "256GB",
+          "512GB"
+        ],
+        "camera": {
+          "main": "48MP",
+          "ultraWide": "10.5MP",
+          "telephoto": "10.8MP (5x optical zoom)",
+          "front": "10MP"
+        },
+        "battery": {
+          "capacity": "4650 mAh",
+          "charging": "21W wired, 7.5W wireless"
+        },
+        "os": "Android 14",
+        "connectivity": [
+          "5G",
+          "Wi-Fi 7",
+          "Bluetooth 5.3",
+          "USB-C"
+        ],
+        "waterResistance": "IPX8"
+      },
+      "colors": [
+        "Obsidian",
+        "Porcelain"
+      ],
+      "weight": "257g",
+      "dimensions": "155.2 x 150.2 x 5.1 mm (unfolded)",
+      "features": [
+        "Foldable design",
+        "7 years of updates"
+      ]
+    },
+    {
+      "id": 27,
+      "brand": "Google",
+      "model": "Pixel 9 Pro XL",
+      "price": 1099,
+      "releaseDate": "2024-08-22",
+      "image": "https://fdn2.gsmarena.com/vv/pics/google/google-pixel-9-pro-xl-1.jpg",
+      "specs": {
+        "display": {
+          "size": "6.8 inches",
+          "type": "LTPO OLED",
+          "resolution": "2992 x 1344",
+          "refreshRate": "120Hz"
+        },
+        "processor": "Google Tensor G4",
+        "ram": "16GB",
+        "storage": [
+          "128GB",
+          "256GB",
+          "512GB",
+          "1TB"
+        ],
+        "camera": {
+          "main": "50MP",
+          "ultraWide": "48MP",
+          "telephoto": "48MP (5x optical zoom)",
+          "front": "42MP"
+        },
+        "battery": {
+          "capacity": "5060 mAh",
+          "charging": "37W wired, 23W wireless"
+        },
+        "os": "Android 14",
+        "connectivity": [
+          "5G",
+          "Wi-Fi 7",
+          "Bluetooth 5.3",
+          "USB-C (USB 3.2)"
+        ],
+        "waterResistance": "IP68"
+      },
+      "colors": [
+        "Obsidian",
+        "Porcelain",
+        "Hazel",
+        "Rose Quartz"
+      ],
+      "weight": "221g",
+      "dimensions": "162.8 x 76.6 x 8.5 mm",
+      "features": [
+        "7 years of updates",
+        "Gemini AI",
+        "Satellite SOS"
+      ]
+    },
+    {
+      "id": 28,
+      "brand": "Google",
+      "model": "Pixel 9a",
+      "price": 499,
+      "releaseDate": "2025-03-19",
+      "image": "https://fdn2.gsmarena.com/vv/pics/google/google-pixel-9a-1.jpg",
+      "specs": {
+        "display": {
+          "size": "6.3 inches",
+          "type": "OLED",
+          "resolution": "2424 x 1080",
+          "refreshRate": "120Hz"
+        },
+        "processor": "Google Tensor G4",
+        "ram": "8GB",
+        "storage": [
+          "128GB",
+          "256GB"
+        ],
+        "camera": {
+          "main": "48MP",
+          "ultraWide": "13MP",
+          "telephoto": "N/A",
+          "front": "13MP"
+        },
+        "battery": {
+          "capacity": "5100 mAh",
+          "charging": "23W wired, 7.5W wireless"
+        },
+        "os": "Android 15",
+        "connectivity": [
+          "5G",
+          "Wi-Fi 6E",
+          "Bluetooth 5.3",
+          "USB-C"
+        ],
+        "waterResistance": "IP68"
+      },
+      "colors": [
+        "Obsidian",
+        "Porcelain",
+        "Iris",
+        "Peony"
+      ],
+      "weight": "186g",
+      "dimensions": "154.7 x 73.3 x 8.9 mm",
+      "features": [
+        "7 years of updates",
+        "Value Pixel"
+      ]
+    },
+    {
+      "id": 29,
+      "brand": "Google",
+      "model": "Pixel Fold",
+      "price": 1599,
+      "releaseDate": "2023-06-27",
+      "image": "https://fdn2.gsmarena.com/vv/pics/google/google-pixel-fold-1.jpg",
+      "specs": {
+        "display": {
+          "size": "7.6 inches",
+          "type": "OLED",
+          "resolution": "2208 x 1840",
+          "refreshRate": "120Hz"
+        },
+        "processor": "Google Tensor G2",
+        "ram": "12GB",
+        "storage": [
+          "256GB",
+          "512GB"
+        ],
+        "camera": {
+          "main": "48MP",
+          "ultraWide": "10.8MP",
+          "telephoto": "10.8MP (5x optical zoom)",
+          "front": "9.5MP"
+        },
+        "battery": {
+          "capacity": "4821 mAh",
+          "charging": "21W wired, 7.5W wireless"
+        },
+        "os": "Android 13",
+        "connectivity": [
+          "5G",
+          "Wi-Fi 6E",
+          "Bluetooth 5.2",
+          "USB-C"
+        ],
+        "waterResistance": "IPX8"
+      },
+      "colors": [
+        "Obsidian",
+        "Porcelain"
+      ],
+      "weight": "283g",
+      "dimensions": "158.7 x 139.7 x 5.8 mm (unfolded)",
+      "features": [
+        "Foldable design",
+        "Tabletop mode"
+      ]
+    },
+    {
+      "id": 30,
+      "brand": "Honor",
+      "model": "200",
+      "price": 499,
+      "releaseDate": "2024-06-12",
+      "image": "https://fdn2.gsmarena.com/vv/pics/honor/honor-200-1.jpg",
+      "specs": {
+        "display": {
+          "size": "6.7 inches",
+          "type": "OLED",
+          "resolution": "2664 x 1200",
+          "refreshRate": "120Hz"
+        },
+        "processor": "Snapdragon 7 Gen 3",
+        "ram": "12GB",
+        "storage": [
+          "256GB",
+          "512GB"
+        ],
+        "camera": {
+          "main": "50MP",
+          "ultraWide": "12MP",
+          "telephoto": "50MP (2.5x optical zoom)",
+          "front": "50MP"
+        },
+        "battery": {
+          "capacity": "5200 mAh",
+          "charging": "100W wired"
+        },
+        "os": "Android 14 (MagicOS 8)",
+        "connectivity": [
+          "5G",
+          "Wi-Fi 6",
+          "Bluetooth 5.3",
+          "USB-C"
+        ],
+        "waterResistance": "IP65"
+      },
+      "colors": [
+        "Black",
+        "White",
+        "Coral Pink"
+      ],
+      "weight": "187g",
+      "dimensions": "161.5 x 74.6 x 7.7 mm",
+      "features": [
+        "Studio Harcourt portraits"
+      ]
+    },
+    {
+      "id": 31,
+      "brand": "Honor",
+      "model": "200 Pro",
+      "price": 699,
+      "releaseDate": "2024-06-12",
+      "image": "https://fdn2.gsmarena.com/vv/pics/honor/honor-200-pro-1.jpg",
+      "specs": {
+        "display": {
+          "size": "6.78 inches",
+          "type": "OLED",
+          "resolution": "2700 x 1224",
+          "refreshRate": "120Hz"
+        },
+        "processor": "Snapdragon 8s Gen 3",
+        "ram": "12GB",
+        "storage": [
+          "512GB"
+        ],
+        "camera": {
+          "main": "50MP",
+          "ultraWide": "12MP",
+          "telephoto": "50MP (2.5x optical zoom)",
+          "front": "50MP"
+        },
+        "battery": {
+          "capacity": "5200 mAh",
+          "charging": "100W wired, 66W wireless"
+        },
+        "os": "Android 14 (MagicOS 8)",
+        "connectivity": [
+          "5G",
+          "Wi-Fi 7",
+          "Bluetooth 5.3",
+          "USB-C"
+        ],
+        "waterResistance": "IP65"
+      },
+      "colors": [
+        "Ocean Cyan",
+        "Moonlight White",
+        "Black"
+      ],
+      "weight": "199g",
+      "dimensions": "163.3 x 75.2 x 8.2 mm",
+      "features": [
+        "Portrait tuned with Studio Harcourt",
+        "100W charging"
+      ]
+    },
+    {
+      "id": 32,
+      "brand": "Honor",
+      "model": "90",
+      "price": 449,
+      "releaseDate": "2023-07-06",
+      "image": "https://fdn2.gsmarena.com/vv/pics/honor/honor-90-1.jpg",
+      "specs": {
+        "display": {
+          "size": "6.7 inches",
+          "type": "OLED",
+          "resolution": "2664 x 1200",
+          "refreshRate": "120Hz"
+        },
+        "processor": "Snapdragon 7 Gen 1 Accelerate",
+        "ram": "8GB",
+        "storage": [
+          "256GB",
+          "512GB"
+        ],
+        "camera": {
+          "main": "200MP",
+          "ultraWide": "12MP",
+          "telephoto": "2MP depth",
+          "front": "50MP"
+        },
+        "battery": {
+          "capacity": "5000 mAh",
+          "charging": "66W wired"
+        },
+        "os": "Android 13 (MagicOS 7.1)",
+        "connectivity": [
+          "5G",
+          "Wi-Fi 6",
+          "Bluetooth 5.2",
+          "USB-C"
+        ],
+        "waterResistance": "N/A"
+      },
+      "colors": [
+        "Midnight Black",
+        "Emerald Green",
+        "Diamond Silver"
+      ],
+      "weight": "183g",
+      "dimensions": "161.9 x 74.1 x 7.8 mm",
+      "features": [
+        "200MP camera",
+        "3840Hz PWM dimming"
+      ]
+    },
+    {
+      "id": 33,
+      "brand": "Honor",
+      "model": "Magic V3",
+      "price": 1699,
+      "releaseDate": "2024-09-05",
+      "image": "https://fdn2.gsmarena.com/vv/bigpic/honor-magic-v3.jpg",
+      "specs": {
+        "display": {
+          "size": "7.92 inches",
+          "type": "LTPO OLED",
+          "resolution": "2344 x 2156",
+          "refreshRate": "120Hz"
+        },
+        "processor": "Snapdragon 8 Gen 3",
+        "ram": "12GB",
+        "storage": [
+          "512GB"
+        ],
+        "camera": {
+          "main": "50MP",
+          "ultraWide": "40MP",
+          "telephoto": "50MP (3.5x optical zoom)",
+          "front": "20MP"
+        },
+        "battery": {
+          "capacity": "5150 mAh",
+          "charging": "66W wired, 50W wireless"
+        },
+        "os": "Android 14 (MagicOS 8)",
+        "connectivity": [
+          "5G",
+          "Wi-Fi 7",
+          "Bluetooth 5.3",
+          "USB-C"
+        ],
+        "waterResistance": "IPX8"
+      },
+      "colors": [
+        "Green",
+        "Black",
+        "Reddish Brown"
+      ],
+      "weight": "226g",
+      "dimensions": "156.6 x 145.3 x 4.4 mm (unfolded)",
+      "features": [
+        "Ultra-thin foldable",
+        "Stylus support"
+      ]
+    },
+    {
+      "id": 34,
+      "brand": "Honor",
+      "model": "Magic6 Pro",
+      "price": 1099,
+      "releaseDate": "2024-03-01",
+      "image": "https://fdn2.gsmarena.com/vv/pics/honor/honor-magic6-pro-1.jpg",
+      "specs": {
+        "display": {
+          "size": "6.8 inches",
+          "type": "LTPO OLED",
+          "resolution": "2800 x 1280",
+          "refreshRate": "120Hz"
+        },
+        "processor": "Snapdragon 8 Gen 3",
+        "ram": "12GB",
+        "storage": [
+          "512GB"
+        ],
+        "camera": {
+          "main": "50MP",
+          "ultraWide": "50MP",
+          "telephoto": "180MP (2.5x optical zoom)",
+          "front": "50MP"
+        },
+        "battery": {
+          "capacity": "5600 mAh",
+          "charging": "80W wired, 66W wireless"
+        },
+        "os": "Android 14 (MagicOS 8)",
+        "connectivity": [
+          "5G",
+          "Wi-Fi 7",
+          "Bluetooth 5.3",
+          "USB-C"
+        ],
+        "waterResistance": "IP68"
+      },
+      "colors": [
+        "Black",
+        "Epi Green"
+      ],
+      "weight": "229g",
+      "dimensions": "162.5 x 75.8 x 8.9 mm",
+      "features": [
+        "Variable aperture",
+        "3D face unlock"
+      ]
+    },
+    {
+      "id": 35,
+      "brand": "Honor",
+      "model": "Magic7 Pro",
+      "price": 1099,
+      "releaseDate": "2025-01-15",
+      "image": "https://fdn2.gsmarena.com/vv/pics/honor/honor-magic7-pro-1.jpg",
+      "specs": {
+        "display": {
+          "size": "6.8 inches",
+          "type": "LTPO OLED",
+          "resolution": "2800 x 1280",
+          "refreshRate": "120Hz"
+        },
+        "processor": "Snapdragon 8 Elite",
+        "ram": "12GB",
+        "storage": [
+          "512GB"
+        ],
+        "camera": {
+          "main": "50MP",
+          "ultraWide": "50MP",
+          "telephoto": "200MP (3x optical zoom)",
+          "front": "50MP"
+        },
+        "battery": {
+          "capacity": "5270 mAh",
+          "charging": "100W wired, 80W wireless"
+        },
+        "os": "Android 15 (MagicOS 9)",
+        "connectivity": [
+          "5G",
+          "Wi-Fi 7",
+          "Bluetooth 5.4",
+          "USB-C"
+        ],
+        "waterResistance": "IP68/IP69"
+      },
+      "colors": [
+        "Lunar Shadow Grey",
+        "Breeze Blue",
+        "Black"
+      ],
+      "weight": "223g",
+      "dimensions": "162.7 x 77.1 x 8.8 mm",
+      "features": [
+        "3D face unlock",
+        "200MP telephoto"
+      ]
+    },
+    {
+      "id": 36,
+      "brand": "Motorola",
+      "model": "Edge 40 Neo",
+      "price": 299,
+      "releaseDate": "2023-09-14",
+      "image": "https://fdn2.gsmarena.com/vv/pics/motorola/motorola-edge-40-neo-1.jpg",
+      "specs": {
+        "display": {
+          "size": "6.55 inches",
+          "type": "P-OLED",
+          "resolution": "2400 x 1080",
+          "refreshRate": "144Hz"
+        },
+        "processor": "Dimensity 7030",
+        "ram": "8GB",
+        "storage": [
+          "128GB",
+          "256GB"
+        ],
+        "camera": {
+          "main": "50MP",
+          "ultraWide": "13MP",
+          "telephoto": "N/A",
+          "front": "32MP"
+        },
+        "battery": {
+          "capacity": "5000 mAh",
+          "charging": "68W wired"
+        },
+        "os": "Android 13",
+        "connectivity": [
+          "5G",
+          "Wi-Fi 6E",
+          "Bluetooth 5.3",
+          "USB-C"
+        ],
+        "waterResistance": "IP68"
+      },
+      "colors": [
+        "Black Beauty",
+        "Soothing Sea",
+        "Caneel Bay",
+        "Peach Fuzz"
+      ],
+      "weight": "170g",
+      "dimensions": "159.6 x 72 x 7.8 mm",
+      "features": [
+        "Curved display",
+        "IP68"
+      ]
+    },
+    {
+      "id": 37,
+      "brand": "Motorola",
+      "model": "Edge 50 Fusion",
+      "price": 349,
+      "releaseDate": "2024-04-16",
+      "image": "https://fdn2.gsmarena.com/vv/pics/motorola/motorola-edge-50-fusion-1.jpg",
+      "specs": {
+        "display": {
+          "size": "6.7 inches",
+          "type": "P-OLED",
+          "resolution": "2400 x 1080",
+          "refreshRate": "144Hz"
+        },
+        "processor": "Snapdragon 7s Gen 2",
+        "ram": "8GB",
+        "storage": [
+          "256GB",
+          "512GB"
+        ],
+        "camera": {
+          "main": "50MP",
+          "ultraWide": "13MP",
+          "telephoto": "N/A",
+          "front": "32MP"
+        },
+        "battery": {
+          "capacity": "5000 mAh",
+          "charging": "68W wired"
+        },
+        "os": "Android 14",
+        "connectivity": [
+          "5G",
+          "Wi-Fi 6",
+          "Bluetooth 5.2",
+          "USB-C"
+        ],
+        "waterResistance": "IP68"
+      },
+      "colors": [
+        "Hot Pink",
+        "Marshmallow Blue",
+        "Forest Blue"
+      ],
+      "weight": "175g",
+      "dimensions": "161.9 x 73.1 x 7.9 mm",
+      "features": [
+        "Pantone colors",
+        "Curved display"
+      ]
+    },
+    {
+      "id": 38,
+      "brand": "Motorola",
+      "model": "Edge 50 Neo",
+      "price": 449,
+      "releaseDate": "2024-08-29",
+      "image": "https://fdn2.gsmarena.com/vv/pics/motorola/motorola-edge-50-neo-1.jpg",
+      "specs": {
+        "display": {
+          "size": "6.4 inches",
+          "type": "P-OLED",
+          "resolution": "2670 x 1220",
+          "refreshRate": "120Hz"
+        },
+        "processor": "Dimensity 7300",
+        "ram": "12GB",
+        "storage": [
+          "512GB"
+        ],
+        "camera": {
+          "main": "50MP",
+          "ultraWide": "13MP",
+          "telephoto": "10MP (3x optical zoom)",
+          "front": "32MP"
+        },
+        "battery": {
+          "capacity": "4310 mAh",
+          "charging": "68W wired, 15W wireless"
+        },
+        "os": "Android 14",
+        "connectivity": [
+          "5G",
+          "Wi-Fi 6E",
+          "Bluetooth 5.3",
+          "USB-C"
+        ],
+        "waterResistance": "IP68"
+      },
+      "colors": [
+        "Pantone Poinciana",
+        "Pantone Lattè",
+        "Pantone Grisaille",
+        "Pantone Nautical Blue"
+      ],
+      "weight": "171g",
+      "dimensions": "154.1 x 71.2 x 8.1 mm",
+      "features": [
+        "MIL-STD-810H",
+        "Compact size"
+      ]
+    },
+    {
+      "id": 39,
+      "brand": "Motorola",
+      "model": "Edge 50 Pro",
+      "price": 599,
+      "releaseDate": "2024-04-16",
+      "image": "https://fdn2.gsmarena.com/vv/bigpic/motorola-edge-50-pro.jpg",
+      "specs": {
+        "display": {
+          "size": "6.7 inches",
+          "type": "P-OLED",
+          "resolution": "2712 x 1220",
+          "refreshRate": "144Hz"
+        },
+        "processor": "Snapdragon 7 Gen 3",
+        "ram": "12GB",
+        "storage": [
+          "256GB",
+          "512GB"
+        ],
+        "camera": {
+          "main": "50MP",
+          "ultraWide": "13MP",
+          "telephoto": "10MP (3x optical zoom)",
+          "front": "50MP"
+        },
+        "battery": {
+          "capacity": "4500 mAh",
+          "charging": "125W wired, 50W wireless"
+        },
+        "os": "Android 14",
+        "connectivity": [
+          "5G",
+          "Wi-Fi 6E",
+          "Bluetooth 5.4",
+          "USB-C"
+        ],
+        "waterResistance": "IP68"
+      },
+      "colors": [
+        "Black Beauty",
+        "Luxe Lavender",
+        "Moonlight Pearl"
+      ],
+      "weight": "186g",
+      "dimensions": "161.2 x 72.4 x 8.2 mm",
+      "features": [
+        "Pantone camera tuning",
+        "125W charging"
+      ]
+    },
+    {
+      "id": 40,
+      "brand": "Motorola",
+      "model": "Edge 50 Ultra",
+      "price": 849,
+      "releaseDate": "2024-05-16",
+      "image": "https://fdn2.gsmarena.com/vv/bigpic/motorola-edge-50-ultra.jpg",
+      "specs": {
+        "display": {
+          "size": "6.7 inches",
+          "type": "P-OLED",
+          "resolution": "2712 x 1220",
+          "refreshRate": "144Hz"
+        },
+        "processor": "Snapdragon 8s Gen 3",
+        "ram": "16GB",
+        "storage": [
+          "1TB"
+        ],
+        "camera": {
+          "main": "50MP",
+          "ultraWide": "50MP",
+          "telephoto": "64MP (3x optical zoom)",
+          "front": "50MP"
+        },
+        "battery": {
+          "capacity": "4500 mAh",
+          "charging": "125W wired, 50W wireless"
+        },
+        "os": "Android 14",
+        "connectivity": [
+          "5G",
+          "Wi-Fi 7",
+          "Bluetooth 5.4",
+          "USB-C"
+        ],
+        "waterResistance": "IP68"
+      },
+      "colors": [
+        "Forest Grey",
+        "Peach Fuzz",
+        "Nordic Wood"
+      ],
+      "weight": "197g",
+      "dimensions": "161.1 x 72.4 x 8.6 mm",
+      "features": [
+        "125W charging",
+        "Pantone validated display"
+      ]
+    },
+    {
+      "id": 41,
+      "brand": "Motorola",
+      "model": "Moto G75",
+      "price": 299,
+      "releaseDate": "2024-10-01",
+      "image": "https://fdn2.gsmarena.com/vv/pics/motorola/motorola-moto-g75-1.jpg",
+      "specs": {
+        "display": {
+          "size": "6.78 inches",
+          "type": "IPS LCD",
+          "resolution": "2388 x 1080",
+          "refreshRate": "120Hz"
+        },
+        "processor": "Snapdragon 6 Gen 3",
+        "ram": "8GB",
+        "storage": [
+          "256GB"
+        ],
+        "camera": {
+          "main": "50MP",
+          "ultraWide": "8MP",
+          "telephoto": "N/A",
+          "front": "16MP"
+        },
+        "battery": {
+          "capacity": "5000 mAh",
+          "charging": "30W wired, 15W wireless"
+        },
+        "os": "Android 14",
+        "connectivity": [
+          "5G",
+          "Wi-Fi 6",
+          "Bluetooth 5.4",
+          "USB-C"
+        ],
+        "waterResistance": "IP68"
+      },
+      "colors": [
+        "Charcoal Gray",
+        "Aqua Blue",
+        "Succulent Green"
+      ],
+      "weight": "205g",
+      "dimensions": "166.1 x 77.2 x 8.3 mm",
+      "features": [
+        "MIL-STD-810H",
+        "Wireless charging"
+      ]
+    },
+    {
+      "id": 42,
+      "brand": "Motorola",
+      "model": "Moto G84",
+      "price": 269,
+      "releaseDate": "2023-08-25",
+      "image": "https://fdn2.gsmarena.com/vv/pics/motorola/motorola-moto-g84-1.jpg",
+      "specs": {
+        "display": {
+          "size": "6.55 inches",
+          "type": "pOLED",
+          "resolution": "2400 x 1080",
+          "refreshRate": "120Hz"
+        },
+        "processor": "Snapdragon 695",
+        "ram": "12GB",
+        "storage": [
+          "256GB"
+        ],
+        "camera": {
+          "main": "50MP",
+          "ultraWide": "8MP",
+          "telephoto": "N/A",
+          "front": "16MP"
+        },
+        "battery": {
+          "capacity": "5000 mAh",
+          "charging": "33W wired"
+        },
+        "os": "Android 13",
+        "connectivity": [
+          "5G",
+          "Wi-Fi 5",
+          "Bluetooth 5.1",
+          "USB-C"
+        ],
+        "waterResistance": "IP52"
+      },
+      "colors": [
+        "Midnight Blue",
+        "Marshmallow Blue",
+        "Viva Magenta"
+      ],
+      "weight": "167g",
+      "dimensions": "160.3 x 74.4 x 7.6 mm",
+      "features": [
+        "3.5mm headphone jack",
+        "Dolby Atmos stereo speakers",
+        "microSD slot"
+      ]
+    },
+    {
+      "id": 43,
+      "brand": "Motorola",
+      "model": "Moto G85",
+      "price": 299,
+      "releaseDate": "2024-06-25",
+      "image": "https://fdn2.gsmarena.com/vv/pics/motorola/motorola-moto-g85-1.jpg",
+      "specs": {
+        "display": {
+          "size": "6.67 inches",
+          "type": "P-OLED",
+          "resolution": "2400 x 1080",
+          "refreshRate": "120Hz"
+        },
+        "processor": "Snapdragon 6s Gen 3",
+        "ram": "8GB",
+        "storage": [
+          "256GB"
+        ],
+        "camera": {
+          "main": "50MP",
+          "ultraWide": "8MP",
+          "telephoto": "N/A",
+          "front": "32MP"
+        },
+        "battery": {
+          "capacity": "5000 mAh",
+          "charging": "30W wired"
+        },
+        "os": "Android 14",
+        "connectivity": [
+          "5G",
+          "Wi-Fi 5",
+          "Bluetooth 5.1",
+          "USB-C"
+        ],
+        "waterResistance": "IP52"
+      },
+      "colors": [
+        "Urban Grey",
+        "Olive Green",
+        "Cobalt Blue"
+      ],
+      "weight": "171g",
+      "dimensions": "161.9 x 73.1 x 7.6 mm",
+      "features": [
+        "Curved display",
+        "Dolby Atmos"
+      ]
+    },
+    {
+      "id": 44,
+      "brand": "Motorola",
+      "model": "Razr 50",
+      "price": 799,
+      "releaseDate": "2024-06-25",
+      "image": "https://fdn2.gsmarena.com/vv/pics/motorola/motorola-razr-50-1.jpg",
+      "specs": {
+        "display": {
+          "size": "6.9 inches",
+          "type": "LTPO AMOLED",
+          "resolution": "2640 x 1080",
+          "refreshRate": "120Hz"
+        },
+        "processor": "Dimensity 7300X",
+        "ram": "8GB",
+        "storage": [
+          "256GB"
+        ],
+        "camera": {
+          "main": "50MP",
+          "ultraWide": "13MP",
+          "telephoto": "N/A",
+          "front": "32MP"
+        },
+        "battery": {
+          "capacity": "4200 mAh",
+          "charging": "30W wired, 15W wireless"
+        },
+        "os": "Android 14",
+        "connectivity": [
+          "5G",
+          "Wi-Fi 6E",
+          "Bluetooth 5.4",
+          "USB-C"
+        ],
+        "waterResistance": "IPX8"
+      },
+      "colors": [
+        "Koala Grey",
+        "Beach Sand",
+        "Spritz Orange"
+      ],
+      "weight": "188g",
+      "dimensions": "171.3 x 74 x 7.3 mm (unfolded)",
+      "features": [
+        "Large cover display",
+        "Flip foldable"
+      ]
+    },
+    {
+      "id": 45,
+      "brand": "Motorola",
+      "model": "Razr 50 Ultra",
+      "price": 999,
+      "releaseDate": "2024-06-25",
+      "image": "https://fdn2.gsmarena.com/vv/pics/motorola/motorola-razr-50-ultra-1.jpg",
+      "specs": {
+        "display": {
+          "size": "6.9 inches",
+          "type": "LTPO AMOLED",
+          "resolution": "2640 x 1080",
+          "refreshRate": "165Hz"
+        },
+        "processor": "Snapdragon 8s Gen 3",
+        "ram": "12GB",
+        "storage": [
+          "512GB"
+        ],
+        "camera": {
+          "main": "50MP",
+          "ultraWide": "50MP (2x optical zoom)",
+          "telephoto": "N/A",
+          "front": "32MP"
+        },
+        "battery": {
+          "capacity": "4000 mAh",
+          "charging": "45W wired, 15W wireless"
+        },
+        "os": "Android 14",
+        "connectivity": [
+          "5G",
+          "Wi-Fi 7",
+          "Bluetooth 5.4",
+          "USB-C"
+        ],
+        "waterResistance": "IPX8"
+      },
+      "colors": [
+        "Midnight Blue",
+        "Spring Green",
+        "Peach Fuzz"
+      ],
+      "weight": "189g",
+      "dimensions": "171.4 x 74 x 7.1 mm (unfolded)",
+      "features": [
+        "Large cover display",
+        "Flip foldable"
+      ]
+    },
+    {
+      "id": 46,
+      "brand": "Nothing",
+      "model": "CMF Phone 1",
+      "price": 209,
+      "releaseDate": "2024-07-09",
+      "image": "https://fdn2.gsmarena.com/vv/bigpic/nothing-cmf-phone-1-ofic.jpg",
+      "specs": {
+        "display": {
+          "size": "6.67 inches",
+          "type": "AMOLED",
+          "resolution": "2400 x 1080",
+          "refreshRate": "120Hz"
+        },
+        "processor": "Dimensity 7300",
+        "ram": "8GB",
+        "storage": [
+          "128GB",
+          "256GB"
+        ],
+        "camera": {
+          "main": "50MP",
+          "ultraWide": "N/A",
+          "telephoto": "Portrait sensor",
+          "front": "16MP"
+        },
+        "battery": {
+          "capacity": "5000 mAh",
+          "charging": "33W wired"
+        },
+        "os": "Android 14 (Nothing OS 2.6)",
+        "connectivity": [
+          "5G",
+          "Wi-Fi 6",
+          "Bluetooth 5.3",
+          "USB-C"
+        ],
+        "waterResistance": "IP52"
+      },
+      "colors": [
+        "Black",
+        "Orange",
+        "Light Green",
+        "Blue"
+      ],
+      "weight": "197g",
+      "dimensions": "164 x 77 x 8.2 mm",
+      "features": [
+        "Customizable back cover",
+        "Accessory point"
+      ]
+    },
+    {
+      "id": 47,
+      "brand": "Nothing",
+      "model": "Phone (2)",
+      "price": 649,
+      "releaseDate": "2023-07-11",
+      "image": "https://fdn2.gsmarena.com/vv/bigpic/nothing-phone2_.jpg",
+      "specs": {
+        "display": {
+          "size": "6.7 inches",
+          "type": "LTPO OLED",
+          "resolution": "2412 x 1080",
+          "refreshRate": "120Hz"
+        },
+        "processor": "Snapdragon 8+ Gen 1",
+        "ram": "8GB",
+        "storage": [
+          "128GB",
+          "256GB",
+          "512GB"
+        ],
+        "camera": {
+          "main": "50MP",
+          "ultraWide": "50MP",
+          "telephoto": "N/A",
+          "front": "32MP"
+        },
+        "battery": {
+          "capacity": "4700 mAh",
+          "charging": "45W wired, 15W wireless"
+        },
+        "os": "Android 13 (Nothing OS 2.0)",
+        "connectivity": [
+          "5G",
+          "Wi-Fi 6E",
+          "Bluetooth 5.3",
+          "USB-C"
+        ],
+        "waterResistance": "IP54"
+      },
+      "colors": [
+        "White",
+        "Dark Gray"
+      ],
+      "weight": "201.2g",
+      "dimensions": "162.1 x 76.4 x 8.6 mm",
+      "features": [
+        "Glyph Interface lighting",
+        "Transparent back design",
+        "NDZero zero shutter lag"
+      ]
+    },
+    {
+      "id": 48,
+      "brand": "Nothing",
+      "model": "Phone (2a)",
+      "price": 319,
+      "releaseDate": "2024-03-12",
+      "image": "https://fdn2.gsmarena.com/vv/pics/nothing/nothing-phone-2a-1.jpg",
+      "specs": {
+        "display": {
+          "size": "6.7 inches",
+          "type": "AMOLED",
+          "resolution": "2412 x 1084",
+          "refreshRate": "120Hz"
+        },
+        "processor": "Dimensity 7200 Pro",
+        "ram": "8GB",
+        "storage": [
+          "128GB",
+          "256GB"
+        ],
+        "camera": {
+          "main": "50MP",
+          "ultraWide": "50MP",
+          "telephoto": "N/A",
+          "front": "32MP"
+        },
+        "battery": {
+          "capacity": "5000 mAh",
+          "charging": "45W wired"
+        },
+        "os": "Android 14 (Nothing OS 2.5)",
+        "connectivity": [
+          "5G",
+          "Wi-Fi 6",
+          "Bluetooth 5.3",
+          "USB-C"
+        ],
+        "waterResistance": "IP54"
+      },
+      "colors": [
+        "Black",
+        "White",
+        "Milk"
+      ],
+      "weight": "190g",
+      "dimensions": "161.7 x 76.3 x 8.6 mm",
+      "features": [
+        "Glyph Interface",
+        "Minimal design"
+      ]
+    },
+    {
+      "id": 49,
+      "brand": "Nothing",
+      "model": "Phone (2a) Plus",
+      "price": 399,
+      "releaseDate": "2024-08-03",
+      "image": "https://fdn2.gsmarena.com/vv/bigpic/nothing-phone-2a-plus.jpg",
+      "specs": {
+        "display": {
+          "size": "6.7 inches",
+          "type": "AMOLED",
+          "resolution": "2412 x 1084",
+          "refreshRate": "120Hz"
+        },
+        "processor": "Dimensity 7350 Pro",
+        "ram": "12GB",
+        "storage": [
+          "256GB"
+        ],
+        "camera": {
+          "main": "50MP",
+          "ultraWide": "50MP",
+          "telephoto": "N/A",
+          "front": "50MP"
+        },
+        "battery": {
+          "capacity": "5000 mAh",
+          "charging": "50W wired"
+        },
+        "os": "Android 14 (Nothing OS 2.6)",
+        "connectivity": [
+          "5G",
+          "Wi-Fi 6",
+          "Bluetooth 5.3",
+          "USB-C"
+        ],
+        "waterResistance": "IP54"
+      },
+      "colors": [
+        "Gray",
+        "Black"
+      ],
+      "weight": "190g",
+      "dimensions": "161.7 x 76.3 x 8.5 mm",
+      "features": [
+        "Glyph Interface",
+        "50MP selfie"
+      ]
+    },
+    {
+      "id": 50,
+      "brand": "Nothing",
+      "model": "Phone (3a)",
+      "price": 329,
+      "releaseDate": "2025-03-04",
+      "image": "https://fdn2.gsmarena.com/vv/bigpic/nothing-phone-3a-new.jpg",
+      "specs": {
+        "display": {
+          "size": "6.77 inches",
+          "type": "AMOLED",
+          "resolution": "2392 x 1080",
+          "refreshRate": "120Hz"
+        },
+        "processor": "Snapdragon 7s Gen 3",
+        "ram": "8GB",
+        "storage": [
+          "128GB",
+          "256GB"
+        ],
+        "camera": {
+          "main": "50MP",
+          "ultraWide": "8MP",
+          "telephoto": "50MP (2x optical zoom)",
+          "front": "32MP"
+        },
+        "battery": {
+          "capacity": "5000 mAh",
+          "charging": "50W wired"
+        },
+        "os": "Android 15 (Nothing OS 3.1)",
+        "connectivity": [
+          "5G",
+          "Wi-Fi 6",
+          "Bluetooth 5.4",
+          "USB-C"
+        ],
+        "waterResistance": "IP64"
+      },
+      "colors": [
+        "Black",
+        "White",
+        "Blue"
+      ],
+      "weight": "201g",
+      "dimensions": "163.5 x 77.5 x 8.4 mm",
+      "features": [
+        "Glyph Interface",
+        "Essential Space"
+      ]
+    },
+    {
+      "id": 51,
+      "brand": "Nothing",
+      "model": "Phone (3a) Pro",
+      "price": 449,
+      "releaseDate": "2025-03-04",
+      "image": "https://fdn2.gsmarena.com/vv/pics/nothing/nothing-phone-3a-pro-1.jpg",
+      "specs": {
+        "display": {
+          "size": "6.77 inches",
+          "type": "AMOLED",
+          "resolution": "2392 x 1080",
+          "refreshRate": "120Hz"
+        },
+        "processor": "Snapdragon 7s Gen 3",
+        "ram": "12GB",
+        "storage": [
+          "256GB"
+        ],
+        "camera": {
+          "main": "50MP",
+          "ultraWide": "8MP",
+          "telephoto": "50MP (3x optical zoom)",
+          "front": "50MP"
+        },
+        "battery": {
+          "capacity": "5000 mAh",
+          "charging": "50W wired"
+        },
+        "os": "Android 15 (Nothing OS 3.1)",
+        "connectivity": [
+          "5G",
+          "Wi-Fi 6",
+          "Bluetooth 5.4",
+          "USB-C"
+        ],
+        "waterResistance": "IP64"
+      },
+      "colors": [
+        "Black",
+        "Gray"
+      ],
+      "weight": "211g",
+      "dimensions": "163.5 x 77.5 x 8.4 mm",
+      "features": [
+        "Glyph Interface",
+        "Periscope camera"
+      ]
+    },
+    {
+      "id": 52,
+      "brand": "OnePlus",
+      "model": "11",
+      "price": 729,
+      "releaseDate": "2023-02-16",
+      "image": "https://fdn2.gsmarena.com/vv/pics/oneplus/oneplus-11-1.jpg",
+      "specs": {
+        "display": {
+          "size": "6.7 inches",
+          "type": "LTPO3 AMOLED",
+          "resolution": "3216 x 1440",
+          "refreshRate": "120Hz"
+        },
+        "processor": "Snapdragon 8 Gen 2",
+        "ram": "8GB",
+        "storage": [
+          "128GB",
+          "256GB"
+        ],
+        "camera": {
+          "main": "50MP",
+          "ultraWide": "48MP",
+          "telephoto": "32MP (2x optical zoom)",
+          "front": "16MP"
+        },
+        "battery": {
+          "capacity": "5000 mAh",
+          "charging": "100W wired"
+        },
+        "os": "Android 13 (OxygenOS 13)",
+        "connectivity": [
+          "5G",
+          "Wi-Fi 7",
+          "Bluetooth 5.3",
+          "USB-C"
+        ],
+        "waterResistance": "IP64"
+      },
+      "colors": [
+        "Titan Black",
+        "Eternal Green"
+      ],
+      "weight": "205g",
+      "dimensions": "163.1 x 74.1 x 8.5 mm",
+      "features": [
+        "Hasselblad cameras",
+        "100W charging"
+      ]
+    },
+    {
+      "id": 53,
+      "brand": "OnePlus",
+      "model": "12",
+      "price": 799,
+      "releaseDate": "2024-02-06",
+      "image": "https://fdn2.gsmarena.com/vv/pics/oneplus/oneplus-12-1.jpg",
+      "specs": {
+        "display": {
+          "size": "6.82 inches",
+          "type": "LTPO AMOLED",
+          "resolution": "3168 x 1440",
+          "refreshRate": "120Hz"
+        },
+        "processor": "Snapdragon 8 Gen 3",
+        "ram": "12GB",
+        "storage": [
+          "256GB",
+          "512GB"
+        ],
+        "camera": {
+          "main": "50MP (Hasselblad)",
+          "ultraWide": "48MP",
+          "telephoto": "64MP (3x optical zoom)",
+          "front": "32MP"
+        },
+        "battery": {
+          "capacity": "5400 mAh",
+          "charging": "100W wired (SuperVOOC), 50W wireless"
+        },
+        "os": "Android 14 (OxygenOS 14)",
+        "connectivity": [
+          "5G",
+          "Wi-Fi 7",
+          "Bluetooth 5.4",
+          "USB-C"
+        ],
+        "waterResistance": "IP65"
+      },
+      "colors": [
+        "Flowy Emerald",
+        "Silky Black"
+      ],
+      "weight": "220g",
+      "dimensions": "164.3 x 75.8 x 9.15 mm",
+      "features": [
+        "Super-fast charging",
+        "Hasselblad camera tuning"
+      ]
+    },
+    {
+      "id": 54,
+      "brand": "OnePlus",
+      "model": "12R",
+      "price": 649,
+      "releaseDate": "2024-02-06",
+      "image": "https://fdn2.gsmarena.com/vv/pics/oneplus/oneplus-12r-1.jpg",
+      "specs": {
+        "display": {
+          "size": "6.78 inches",
+          "type": "LTPO AMOLED",
+          "resolution": "2780 x 1264",
+          "refreshRate": "120Hz"
+        },
+        "processor": "Snapdragon 8 Gen 2",
+        "ram": "8GB",
+        "storage": [
+          "128GB",
+          "256GB"
+        ],
+        "camera": {
+          "main": "50MP",
+          "ultraWide": "8MP",
+          "telephoto": "2MP macro",
+          "front": "16MP"
+        },
+        "battery": {
+          "capacity": "5500 mAh",
+          "charging": "100W wired"
+        },
+        "os": "Android 14 (OxygenOS 14)",
+        "connectivity": [
+          "5G",
+          "Wi-Fi 7",
+          "Bluetooth 5.3",
+          "USB-C"
+        ],
+        "waterResistance": "IP64"
+      },
+      "colors": [
+        "Cool Blue",
+        "Iron Gray"
+      ],
+      "weight": "207g",
+      "dimensions": "163.3 x 75.3 x 8.8 mm",
+      "features": [
+        "100W charging",
+        "Large vapor chamber"
+      ]
+    },
+    {
+      "id": 55,
+      "brand": "OnePlus",
+      "model": "13",
+      "price": 899,
+      "releaseDate": "2025-01-23",
+      "image": "https://fdn2.gsmarena.com/vv/pics/oneplus/oneplus-13-1.jpg",
+      "specs": {
+        "display": {
+          "size": "6.82 inches",
+          "type": "LTPO AMOLED",
+          "resolution": "3168 x 1440",
+          "refreshRate": "120Hz"
+        },
+        "processor": "Snapdragon 8 Elite",
+        "ram": "12GB",
+        "storage": [
+          "256GB",
+          "512GB"
+        ],
+        "camera": {
+          "main": "50MP (Hasselblad)",
+          "ultraWide": "50MP",
+          "telephoto": "50MP (3x optical zoom)",
+          "front": "32MP"
+        },
+        "battery": {
+          "capacity": "6000 mAh",
+          "charging": "100W wired (SuperVOOC), 50W wireless"
+        },
+        "os": "Android 15 (OxygenOS 15)",
+        "connectivity": [
+          "5G",
+          "Wi-Fi 7",
+          "Bluetooth 5.4",
+          "USB-C (USB 3.2)"
+        ],
+        "waterResistance": "IP69"
+      },
+      "colors": [
+        "Midnight Ocean",
+        "Arctic Dawn",
+        "Black Eclipse"
+      ],
+      "weight": "210g",
+      "dimensions": "162.9 x 76.5 x 8.9 mm",
+      "features": [
+        "Hasselblad camera tuning",
+        "6000 mAh battery",
+        "AI Eraser"
+      ]
+    },
+    {
+      "id": 56,
+      "brand": "OnePlus",
+      "model": "13R",
+      "price": 649,
+      "releaseDate": "2025-01-07",
+      "image": "https://fdn2.gsmarena.com/vv/pics/oneplus/oneplus-13r-1.jpg",
+      "specs": {
+        "display": {
+          "size": "6.78 inches",
+          "type": "LTPO AMOLED",
+          "resolution": "2780 x 1264",
+          "refreshRate": "120Hz"
+        },
+        "processor": "Snapdragon 8 Gen 3",
+        "ram": "12GB",
+        "storage": [
+          "256GB"
+        ],
+        "camera": {
+          "main": "50MP",
+          "ultraWide": "8MP",
+          "telephoto": "50MP (2x optical zoom)",
+          "front": "16MP"
+        },
+        "battery": {
+          "capacity": "6000 mAh",
+          "charging": "80W wired"
+        },
+        "os": "Android 15 (OxygenOS 15)",
+        "connectivity": [
+          "5G",
+          "Wi-Fi 7",
+          "Bluetooth 5.4",
+          "USB-C"
+        ],
+        "waterResistance": "IP65"
+      },
+      "colors": [
+        "Nebula Noir",
+        "Astral Trail"
+      ],
+      "weight": "206g",
+      "dimensions": "161.7 x 75.8 x 8 mm",
+      "features": [
+        "6000 mAh battery",
+        "Trinity Engine"
+      ]
+    },
+    {
+      "id": 57,
+      "brand": "OnePlus",
+      "model": "Ace 3",
+      "price": 399,
+      "releaseDate": "2024-01-08",
+      "image": "https://fdn2.gsmarena.com/vv/pics/oneplus/oneplus-ace3-1.jpg",
+      "specs": {
+        "display": {
+          "size": "6.78 inches",
+          "type": "LTPO AMOLED",
+          "resolution": "2780 x 1264",
+          "refreshRate": "120Hz"
+        },
+        "processor": "Snapdragon 8 Gen 2",
+        "ram": "12GB",
+        "storage": [
+          "256GB",
+          "512GB"
+        ],
+        "camera": {
+          "main": "50MP",
+          "ultraWide": "8MP",
+          "telephoto": "2MP macro",
+          "front": "16MP"
+        },
+        "battery": {
+          "capacity": "5500 mAh",
+          "charging": "100W wired"
+        },
+        "os": "Android 14 (ColorOS 14)",
+        "connectivity": [
+          "5G",
+          "Wi-Fi 7",
+          "Bluetooth 5.3",
+          "USB-C"
+        ],
+        "waterResistance": "N/A"
+      },
+      "colors": [
+        "Star Black",
+        "Moon Sea Blue"
+      ],
+      "weight": "207g",
+      "dimensions": "163.3 x 75.3 x 8.8 mm",
+      "features": [
+        "100W charging"
+      ]
+    },
+    {
+      "id": 58,
+      "brand": "OnePlus",
+      "model": "Nord 3",
+      "price": 499,
+      "releaseDate": "2023-07-11",
+      "image": "https://fdn2.gsmarena.com/vv/bigpic/oneplus-nord-3r.jpg",
+      "specs": {
+        "display": {
+          "size": "6.74 inches",
+          "type": "Fluid AMOLED",
+          "resolution": "2772 x 1240",
+          "refreshRate": "120Hz"
+        },
+        "processor": "Dimensity 9000",
+        "ram": "8GB",
+        "storage": [
+          "128GB",
+          "256GB"
+        ],
+        "camera": {
+          "main": "50MP",
+          "ultraWide": "8MP",
+          "telephoto": "2MP",
+          "front": "16MP"
+        },
+        "battery": {
+          "capacity": "5000 mAh",
+          "charging": "80W wired"
+        },
+        "os": "Android 13 (OxygenOS 13.1)",
+        "connectivity": [
+          "5G",
+          "Wi-Fi 6",
+          "Bluetooth 5.2",
+          "USB-C"
+        ],
+        "waterResistance": "IP54"
+      },
+      "colors": [
+        "Tempest Gray",
+        "Misty Green"
+      ],
+      "weight": "193.5g",
+      "dimensions": "162 x 75.1 x 8.2 mm",
+      "features": [
+        "Alert Slider",
+        "80W charging"
+      ]
+    },
+    {
+      "id": 59,
+      "brand": "OnePlus",
+      "model": "Nord 4",
+      "price": 429,
+      "releaseDate": "2024-07-16",
+      "image": "https://fdn2.gsmarena.com/vv/bigpic/oneplus-nord4.jpg",
+      "specs": {
+        "display": {
+          "size": "6.74 inches",
+          "type": "AMOLED",
+          "resolution": "2772 x 1240",
+          "refreshRate": "120Hz"
+        },
+        "processor": "Snapdragon 7+ Gen 3",
+        "ram": "8GB",
+        "storage": [
+          "256GB",
+          "512GB"
+        ],
+        "camera": {
+          "main": "50MP",
+          "ultraWide": "8MP",
+          "telephoto": "N/A",
+          "front": "16MP"
+        },
+        "battery": {
+          "capacity": "5500 mAh",
+          "charging": "100W wired"
+        },
+        "os": "Android 14 (OxygenOS 14.1)",
+        "connectivity": [
+          "5G",
+          "Wi-Fi 6",
+          "Bluetooth 5.4",
+          "USB-C"
+        ],
+        "waterResistance": "IP65"
+      },
+      "colors": [
+        "Mercurial Silver",
+        "Obsidian Midnight",
+        "Oasis Green"
+      ],
+      "weight": "199.5g",
+      "dimensions": "162.6 x 75 x 8 mm",
+      "features": [
+        "Metal unibody",
+        "6 years of security updates"
+      ]
+    },
+    {
+      "id": 60,
+      "brand": "OnePlus",
+      "model": "Nord CE 3 Lite",
+      "price": 249,
+      "releaseDate": "2023-04-11",
+      "image": "https://fdn2.gsmarena.com/vv/pics/oneplus/oneplus-nord-ce-3-lite-1.jpg",
+      "specs": {
+        "display": {
+          "size": "6.72 inches",
+          "type": "IPS LCD",
+          "resolution": "2400 x 1080",
+          "refreshRate": "120Hz"
+        },
+        "processor": "Snapdragon 695",
+        "ram": "8GB",
+        "storage": [
+          "128GB",
+          "256GB"
+        ],
+        "camera": {
+          "main": "108MP",
+          "ultraWide": "2MP",
+          "telephoto": "2MP macro",
+          "front": "16MP"
+        },
+        "battery": {
+          "capacity": "5000 mAh",
+          "charging": "67W wired"
+        },
+        "os": "Android 13 (OxygenOS 13.1)",
+        "connectivity": [
+          "5G",
+          "Wi-Fi 5",
+          "Bluetooth 5.1",
+          "USB-C"
+        ],
+        "waterResistance": "N/A"
+      },
+      "colors": [
+        "Pastel Lime",
+        "Chromatic Gray"
+      ],
+      "weight": "195g",
+      "dimensions": "165.5 x 76 x 8.3 mm",
+      "features": [
+        "67W charging",
+        "3.5mm headphone jack"
+      ]
+    },
+    {
+      "id": 61,
+      "brand": "OnePlus",
+      "model": "Nord CE4",
+      "price": 299,
+      "releaseDate": "2024-04-01",
+      "image": "https://fdn2.gsmarena.com/vv/bigpic/oneplus-nord-ce4-.jpg",
+      "specs": {
+        "display": {
+          "size": "6.7 inches",
+          "type": "AMOLED",
+          "resolution": "2412 x 1080",
+          "refreshRate": "120Hz"
+        },
+        "processor": "Snapdragon 7 Gen 3",
+        "ram": "8GB",
+        "storage": [
+          "128GB",
+          "256GB"
+        ],
+        "camera": {
+          "main": "50MP",
+          "ultraWide": "8MP",
+          "telephoto": "N/A",
+          "front": "16MP"
+        },
+        "battery": {
+          "capacity": "5500 mAh",
+          "charging": "100W wired"
+        },
+        "os": "Android 14 (OxygenOS 14)",
+        "connectivity": [
+          "5G",
+          "Wi-Fi 6",
+          "Bluetooth 5.4",
+          "USB-C"
+        ],
+        "waterResistance": "N/A"
+      },
+      "colors": [
+        "Celadon Marble",
+        "Dark Chrome"
+      ],
+      "weight": "186g",
+      "dimensions": "162.5 x 75.3 x 8.4 mm",
+      "features": [
+        "100W charging",
+        "microSD slot"
+      ]
+    },
+    {
+      "id": 62,
+      "brand": "OnePlus",
+      "model": "Open",
+      "price": 1499,
+      "releaseDate": "2023-10-26",
+      "image": "https://fdn2.gsmarena.com/vv/bigpic/oneplus-open-10.jpg",
+      "specs": {
+        "display": {
+          "size": "7.82 inches",
+          "type": "LTPO3 Flexi-fluid AMOLED",
+          "resolution": "2440 x 2268",
+          "refreshRate": "120Hz"
+        },
+        "processor": "Snapdragon 8 Gen 2",
+        "ram": "16GB",
+        "storage": [
+          "512GB"
+        ],
+        "camera": {
+          "main": "48MP",
+          "ultraWide": "48MP",
+          "telephoto": "64MP (3x optical zoom)",
+          "front": "20MP"
+        },
+        "battery": {
+          "capacity": "4805 mAh",
+          "charging": "67W wired"
+        },
+        "os": "Android 13 (OxygenOS 13.2)",
+        "connectivity": [
+          "5G",
+          "Wi-Fi 7",
+          "Bluetooth 5.3",
+          "USB-C"
+        ],
+        "waterResistance": "N/A"
+      },
+      "colors": [
+        "Emerald Dusk",
+        "Voyager Black"
+      ],
+      "weight": "239g",
+      "dimensions": "153.4 x 143.1 x 5.8 mm (unfolded)",
+      "features": [
+        "Foldable design",
+        "Hasselblad cameras"
+      ]
+    },
+    {
+      "id": 63,
+      "brand": "Oppo",
+      "model": "Find N3 Flip",
+      "price": 999,
+      "releaseDate": "2023-10-20",
+      "image": "https://fdn2.gsmarena.com/vv/pics/oppo/oppo-find-n3-flip-1.jpg",
+      "specs": {
+        "display": {
+          "size": "6.8 inches",
+          "type": "AMOLED",
+          "resolution": "2520 x 1080",
+          "refreshRate": "120Hz"
+        },
+        "processor": "Dimensity 9200",
+        "ram": "12GB",
+        "storage": [
+          "256GB"
+        ],
+        "camera": {
+          "main": "50MP",
+          "ultraWide": "48MP",
+          "telephoto": "32MP (2x optical zoom)",
+          "front": "32MP"
+        },
+        "battery": {
+          "capacity": "4300 mAh",
+          "charging": "44W wired"
+        },
+        "os": "Android 13 (ColorOS 13.2)",
+        "connectivity": [
+          "5G",
+          "Wi-Fi 6",
+          "Bluetooth 5.3",
+          "USB-C"
+        ],
+        "waterResistance": "IPX4"
+      },
+      "colors": [
+        "Cream Gold",
+        "Sleek Black",
+        "Misty Pink"
+      ],
+      "weight": "198g",
+      "dimensions": "166.4 x 75.8 x 7.8 mm (unfolded)",
+      "features": [
+        "Triple cameras on a flip phone"
+      ]
+    },
+    {
+      "id": 64,
+      "brand": "Oppo",
+      "model": "Find X7 Ultra",
+      "price": 1199,
+      "releaseDate": "2024-01-12",
+      "image": "https://fdn2.gsmarena.com/vv/pics/oppo/oppo-find-x7-ultra-1.jpg",
+      "specs": {
+        "display": {
+          "size": "6.82 inches",
+          "type": "LTPO AMOLED",
+          "resolution": "3168 x 1440",
+          "refreshRate": "120Hz"
+        },
+        "processor": "Snapdragon 8 Gen 3",
+        "ram": "16GB",
+        "storage": [
+          "256GB",
+          "512GB"
+        ],
+        "camera": {
+          "main": "50MP (1-inch)",
+          "ultraWide": "50MP",
+          "telephoto": "50MP (3x) + 50MP (6x)",
+          "front": "32MP"
+        },
+        "battery": {
+          "capacity": "5000 mAh",
+          "charging": "100W wired, 50W wireless"
+        },
+        "os": "Android 14 (ColorOS 14)",
+        "connectivity": [
+          "5G",
+          "Wi-Fi 7",
+          "Bluetooth 5.4",
+          "USB-C"
+        ],
+        "waterResistance": "IP68"
+      },
+      "colors": [
+        "Ocean Blue",
+        "Sepia Brown",
+        "Tailored Black"
+      ],
+      "weight": "221g",
+      "dimensions": "164.3 x 76.2 x 9.5 mm",
+      "features": [
+        "Quad 50MP camera system",
+        "Dual periscope zoom"
+      ]
+    },
+    {
+      "id": 65,
+      "brand": "Oppo",
+      "model": "Find X8 Pro",
+      "price": 1099,
+      "releaseDate": "2024-11-21",
+      "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-find-x8-pro.jpg",
+      "specs": {
+        "display": {
+          "size": "6.78 inches",
+          "type": "LTPO AMOLED",
+          "resolution": "2780 x 1264",
+          "refreshRate": "120Hz"
+        },
+        "processor": "Dimensity 9400",
+        "ram": "16GB",
+        "storage": [
+          "512GB"
+        ],
+        "camera": {
+          "main": "50MP",
+          "ultraWide": "50MP",
+          "telephoto": "50MP (3x) + 50MP (6x)",
+          "front": "32MP"
+        },
+        "battery": {
+          "capacity": "5910 mAh",
+          "charging": "80W wired, 50W wireless"
+        },
+        "os": "Android 15 (ColorOS 15)",
+        "connectivity": [
+          "5G",
+          "Wi-Fi 7",
+          "Bluetooth 5.4",
+          "USB-C"
+        ],
+        "waterResistance": "IP68/IP69"
+      },
+      "colors": [
+        "Space Black",
+        "Pearl White"
+      ],
+      "weight": "215g",
+      "dimensions": "162.3 x 76.7 x 8.2 mm",
+      "features": [
+        "Dual periscope zoom",
+        "Hasselblad tuning"
+      ]
+    },
+    {
+      "id": 66,
+      "brand": "Oppo",
+      "model": "Reno11 F",
+      "price": 349,
+      "releaseDate": "2024-02-24",
+      "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-reno11-f-5g.jpg",
+      "specs": {
+        "display": {
+          "size": "6.7 inches",
+          "type": "AMOLED",
+          "resolution": "2412 x 1080",
+          "refreshRate": "120Hz"
+        },
+        "processor": "Dimensity 7050",
+        "ram": "8GB",
+        "storage": [
+          "256GB"
+        ],
+        "camera": {
+          "main": "64MP",
+          "ultraWide": "8MP",
+          "telephoto": "2MP macro",
+          "front": "32MP"
+        },
+        "battery": {
+          "capacity": "5000 mAh",
+          "charging": "67W wired"
+        },
+        "os": "Android 14 (ColorOS 14)",
+        "connectivity": [
+          "5G",
+          "Wi-Fi 6",
+          "Bluetooth 5.2",
+          "USB-C"
+        ],
+        "waterResistance": "IP65"
+      },
+      "colors": [
+        "Ocean Blue",
+        "Palm Green",
+        "Coral Purple"
+      ],
+      "weight": "177g",
+      "dimensions": "161.1 x 74.7 x 7.5 mm",
+      "features": [
+        "67W charging"
+      ]
+    },
+    {
+      "id": 67,
+      "brand": "Oppo",
+      "model": "Reno12 Pro",
+      "price": 499,
+      "releaseDate": "2024-06-18",
+      "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-reno12-pro-cn.jpg",
+      "specs": {
+        "display": {
+          "size": "6.7 inches",
+          "type": "AMOLED",
+          "resolution": "2412 x 1080",
+          "refreshRate": "120Hz"
+        },
+        "processor": "Dimensity 7300-Energy",
+        "ram": "12GB",
+        "storage": [
+          "256GB",
+          "512GB"
+        ],
+        "camera": {
+          "main": "50MP",
+          "ultraWide": "8MP",
+          "telephoto": "50MP (2x optical zoom)",
+          "front": "50MP"
+        },
+        "battery": {
+          "capacity": "5000 mAh",
+          "charging": "80W wired"
+        },
+        "os": "Android 14 (ColorOS 14.1)",
+        "connectivity": [
+          "5G",
+          "Wi-Fi 6",
+          "Bluetooth 5.4",
+          "USB-C"
+        ],
+        "waterResistance": "IP65"
+      },
+      "colors": [
+        "Space Brown",
+        "Sunset Gold",
+        "Nebula Silver"
+      ],
+      "weight": "180g",
+      "dimensions": "161.4 x 74.8 x 7.4 mm",
+      "features": [
+        "AI portrait retouching",
+        "80W charging"
+      ]
+    },
+    {
+      "id": 68,
+      "brand": "Realme",
+      "model": "12 Pro+",
+      "price": 449,
+      "releaseDate": "2024-01-29",
+      "image": "https://fdn2.gsmarena.com/vv/pics/realme/realme-12-pro-plus-1.jpg",
+      "specs": {
+        "display": {
+          "size": "6.7 inches",
+          "type": "OLED",
+          "resolution": "2412 x 1080",
+          "refreshRate": "120Hz"
+        },
+        "processor": "Snapdragon 7s Gen 2",
+        "ram": "8GB",
+        "storage": [
+          "256GB"
+        ],
+        "camera": {
+          "main": "50MP",
+          "ultraWide": "8MP",
+          "telephoto": "64MP (3x optical zoom)",
+          "front": "32MP"
+        },
+        "battery": {
+          "capacity": "5000 mAh",
+          "charging": "67W wired"
+        },
+        "os": "Android 14 (Realme UI 5)",
+        "connectivity": [
+          "5G",
+          "Wi-Fi 6",
+          "Bluetooth 5.2",
+          "USB-C"
+        ],
+        "waterResistance": "IP65"
+      },
+      "colors": [
+        "Navigator Beige",
+        "Submarine Blue"
+      ],
+      "weight": "196g",
+      "dimensions": "161.5 x 74 x 8.8 mm",
+      "features": [
+        "Periscope telephoto",
+        "Luxury watch design"
+      ]
+    },
+    {
+      "id": 69,
+      "brand": "Realme",
+      "model": "GT 6",
+      "price": 599,
+      "releaseDate": "2024-06-20",
+      "image": "https://fdn2.gsmarena.com/vv/pics/realme/realme-gt6-1.jpg",
+      "specs": {
+        "display": {
+          "size": "6.78 inches",
+          "type": "LTPO AMOLED",
+          "resolution": "2780 x 1264",
+          "refreshRate": "120Hz"
+        },
+        "processor": "Snapdragon 8s Gen 3",
+        "ram": "12GB",
+        "storage": [
+          "256GB",
+          "512GB"
+        ],
+        "camera": {
+          "main": "50MP",
+          "ultraWide": "8MP",
+          "telephoto": "50MP (2x optical zoom)",
+          "front": "32MP"
+        },
+        "battery": {
+          "capacity": "5500 mAh",
+          "charging": "120W wired"
+        },
+        "os": "Android 14 (Realme UI 5)",
+        "connectivity": [
+          "5G",
+          "Wi-Fi 6",
+          "Bluetooth 5.4",
+          "USB-C"
+        ],
+        "waterResistance": "IP65"
+      },
+      "colors": [
+        "Razor Green",
+        "Fluid Silver"
+      ],
+      "weight": "199g",
+      "dimensions": "162 x 75.1 x 8.6 mm",
+      "features": [
+        "120W charging",
+        "AI Night Vision"
+      ]
+    },
+    {
+      "id": 70,
+      "brand": "Realme",
+      "model": "GT 6T",
+      "price": 399,
+      "releaseDate": "2024-05-29",
+      "image": "https://fdn2.gsmarena.com/vv/bigpic/realme-gt-neo6-se.jpg",
+      "specs": {
+        "display": {
+          "size": "6.78 inches",
+          "type": "LTPO AMOLED",
+          "resolution": "2780 x 1264",
+          "refreshRate": "120Hz"
+        },
+        "processor": "Snapdragon 7+ Gen 3",
+        "ram": "8GB",
+        "storage": [
+          "128GB",
+          "256GB",
+          "512GB"
+        ],
+        "camera": {
+          "main": "50MP",
+          "ultraWide": "8MP",
+          "telephoto": "N/A",
+          "front": "32MP"
+        },
+        "battery": {
+          "capacity": "5500 mAh",
+          "charging": "120W wired"
+        },
+        "os": "Android 14 (Realme UI 5)",
+        "connectivity": [
+          "5G",
+          "Wi-Fi 6",
+          "Bluetooth 5.4",
+          "USB-C"
+        ],
+        "waterResistance": "IP65"
+      },
+      "colors": [
+        "Fluid Silver",
+        "Razor Green"
+      ],
+      "weight": "191g",
+      "dimensions": "162 x 75.1 x 8.7 mm",
+      "features": [
+        "120W charging",
+        "6000 nit peak brightness"
+      ]
+    },
+    {
+      "id": 71,
+      "brand": "Realme",
+      "model": "GT 7 Pro",
+      "price": 799,
+      "releaseDate": "2024-11-26",
+      "image": "https://fdn2.gsmarena.com/vv/pics/realme/realme-gt7-pro-1.jpg",
+      "specs": {
+        "display": {
+          "size": "6.78 inches",
+          "type": "LTPO AMOLED",
+          "resolution": "2780 x 1264",
+          "refreshRate": "120Hz"
+        },
+        "processor": "Snapdragon 8 Elite",
+        "ram": "12GB",
+        "storage": [
+          "256GB",
+          "512GB"
+        ],
+        "camera": {
+          "main": "50MP",
+          "ultraWide": "8MP",
+          "telephoto": "50MP (3x optical zoom)",
+          "front": "16MP"
+        },
+        "battery": {
+          "capacity": "6500 mAh",
+          "charging": "120W wired"
+        },
+        "os": "Android 15 (Realme UI 6)",
+        "connectivity": [
+          "5G",
+          "Wi-Fi 7",
+          "Bluetooth 5.4",
+          "USB-C"
+        ],
+        "waterResistance": "IP69/IP68"
+      },
+      "colors": [
+        "Mars Orange",
+        "Galaxy Grey"
+      ],
+      "weight": "223g",
+      "dimensions": "162.5 x 76.9 x 8.6 mm",
+      "features": [
+        "6500 mAh battery",
+        "Underwater mode"
+      ]
+    },
+    {
+      "id": 72,
+      "brand": "Samsung",
+      "model": "Galaxy A15 5G",
+      "price": 179,
+      "releaseDate": "2023-12-16",
+      "image": "https://fdn2.gsmarena.com/vv/pics/samsung/samsung-galaxy-a15-5g-1.jpg",
+      "specs": {
+        "display": {
+          "size": "6.5 inches",
+          "type": "Super AMOLED",
+          "resolution": "2340 x 1080",
+          "refreshRate": "90Hz"
+        },
+        "processor": "Dimensity 6100+",
+        "ram": "4GB",
+        "storage": [
+          "128GB",
+          "256GB"
+        ],
+        "camera": {
+          "main": "50MP",
+          "ultraWide": "5MP",
+          "telephoto": "2MP macro",
+          "front": "13MP"
+        },
+        "battery": {
+          "capacity": "5000 mAh",
+          "charging": "25W wired"
+        },
+        "os": "Android 14 (One UI 6)",
+        "connectivity": [
+          "5G",
+          "Wi-Fi 5",
+          "Bluetooth 5.3",
+          "USB-C"
+        ],
+        "waterResistance": "N/A"
+      },
+      "colors": [
+        "Blue Black",
+        "Blue",
+        "Yellow"
+      ],
+      "weight": "200g",
+      "dimensions": "160.1 x 76.8 x 8.4 mm",
+      "features": [
+        "microSD slot",
+        "3.5mm headphone jack"
+      ]
+    },
+    {
+      "id": 73,
+      "brand": "Samsung",
+      "model": "Galaxy A25",
+      "price": 249,
+      "releaseDate": "2023-12-11",
+      "image": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-a25.jpg",
+      "specs": {
+        "display": {
+          "size": "6.5 inches",
+          "type": "Super AMOLED",
+          "resolution": "2340 x 1080",
+          "refreshRate": "120Hz"
+        },
+        "processor": "Exynos 1280",
+        "ram": "6GB",
+        "storage": [
+          "128GB",
+          "256GB"
+        ],
+        "camera": {
+          "main": "50MP",
+          "ultraWide": "8MP",
+          "telephoto": "2MP macro",
+          "front": "13MP"
+        },
+        "battery": {
+          "capacity": "5000 mAh",
+          "charging": "25W wired"
+        },
+        "os": "Android 14 (One UI 6)",
+        "connectivity": [
+          "5G",
+          "Wi-Fi 5",
+          "Bluetooth 5.3",
+          "USB-C"
+        ],
+        "waterResistance": "N/A"
+      },
+      "colors": [
+        "Blue Black",
+        "Blue",
+        "Yellow"
+      ],
+      "weight": "197g",
+      "dimensions": "161 x 76.5 x 8.3 mm",
+      "features": [
+        "Stereo speakers",
+        "microSD slot"
+      ]
+    },
+    {
+      "id": 74,
+      "brand": "Samsung",
+      "model": "Galaxy A35",
+      "price": 339,
+      "releaseDate": "2024-03-20",
+      "image": "https://fdn2.gsmarena.com/vv/pics/samsung/samsung-galaxy-a35-1.jpg",
+      "specs": {
+        "display": {
+          "size": "6.6 inches",
+          "type": "Super AMOLED",
+          "resolution": "2340 x 1080",
+          "refreshRate": "120Hz"
+        },
+        "processor": "Exynos 1380",
+        "ram": "6GB",
+        "storage": [
+          "128GB",
+          "256GB"
+        ],
+        "camera": {
+          "main": "50MP",
+          "ultraWide": "8MP",
+          "telephoto": "5MP macro",
+          "front": "13MP"
+        },
+        "battery": {
+          "capacity": "5000 mAh",
+          "charging": "25W wired"
+        },
+        "os": "Android 14 (One UI 6.1)",
+        "connectivity": [
+          "5G",
+          "Wi-Fi 6",
+          "Bluetooth 5.3",
+          "USB-C"
+        ],
+        "waterResistance": "IP67"
+      },
+      "colors": [
+        "Awesome Iceblue",
+        "Awesome Lemon",
+        "Awesome Lilac",
+        "Awesome Navy"
+      ],
+      "weight": "209g",
+      "dimensions": "161.7 x 78 x 8.2 mm",
+      "features": [
+        "4 years of OS updates",
+        "microSD slot"
+      ]
+    },
+    {
+      "id": 75,
+      "brand": "Samsung",
+      "model": "Galaxy A54",
+      "price": 349,
+      "releaseDate": "2023-03-24",
+      "image": "https://fdn2.gsmarena.com/vv/pics/samsung/samsung-galaxy-a54.jpg",
+      "specs": {
+        "display": {
+          "size": "6.4 inches",
+          "type": "Super AMOLED",
+          "resolution": "2340 x 1080",
+          "refreshRate": "120Hz"
+        },
+        "processor": "Exynos 1380",
+        "ram": "6GB",
+        "storage": [
+          "128GB",
+          "256GB"
+        ],
+        "camera": {
+          "main": "50MP",
+          "ultraWide": "12MP",
+          "telephoto": "5MP macro",
+          "front": "32MP"
+        },
+        "battery": {
+          "capacity": "5000 mAh",
+          "charging": "25W wired"
+        },
+        "os": "Android 13 (One UI 5.1)",
+        "connectivity": [
+          "5G",
+          "Wi-Fi 6",
+          "Bluetooth 5.3",
+          "USB-C"
+        ],
+        "waterResistance": "IP67"
+      },
+      "colors": [
+        "Awesome Lime",
+        "Awesome Graphite",
+        "Awesome Violet",
+        "Awesome White"
+      ],
+      "weight": "202g",
+      "dimensions": "158.2 x 76.7 x 8.2 mm",
+      "features": [
+        "microSD slot",
+        "Stereo speakers"
+      ]
+    },
+    {
+      "id": 76,
+      "brand": "Samsung",
+      "model": "Galaxy A55",
+      "price": 449,
+      "releaseDate": "2024-03-22",
+      "image": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-a55.jpg",
+      "specs": {
+        "display": {
+          "size": "6.6 inches",
+          "type": "Super AMOLED",
+          "resolution": "2340 x 1080",
+          "refreshRate": "120Hz"
+        },
+        "processor": "Exynos 1480",
+        "ram": "8GB",
+        "storage": [
+          "128GB",
+          "256GB"
+        ],
+        "camera": {
+          "main": "50MP",
+          "ultraWide": "12MP",
+          "telephoto": "5MP (2x optical)",
+          "front": "32MP"
+        },
+        "battery": {
+          "capacity": "5000 mAh",
+          "charging": "25W wired"
+        },
+        "os": "Android 14 (One UI 6.1)",
+        "connectivity": [
+          "5G",
+          "Wi-Fi 6",
+          "Bluetooth 5.3",
+          "USB-C"
+        ],
+        "waterResistance": "IP67"
+      },
+      "colors": [
+        "Awesome Navy",
+        "Awesome Lilac",
+        "Awesome Iceblue",
+        "Awesome Lemon"
+      ],
+      "weight": "213g",
+      "dimensions": "161.1 x 77.4 x 8.2 mm",
+      "features": [
+        "4 years of OS updates",
+        "Corning Gorilla Glass Victus+"
+      ]
+    },
+    {
+      "id": 77,
+      "brand": "Samsung",
+      "model": "Galaxy M35",
+      "price": 299,
+      "releaseDate": "2024-05-24",
+      "image": "https://fdn2.gsmarena.com/vv/pics/samsung/samsung-galaxy-m35-1.jpg",
+      "specs": {
+        "display": {
+          "size": "6.6 inches",
+          "type": "Super AMOLED",
+          "resolution": "2340 x 1080",
+          "refreshRate": "120Hz"
+        },
+        "processor": "Exynos 1380",
+        "ram": "6GB",
+        "storage": [
+          "128GB",
+          "256GB"
+        ],
+        "camera": {
+          "main": "50MP",
+          "ultraWide": "8MP",
+          "telephoto": "2MP macro",
+          "front": "13MP"
+        },
+        "battery": {
+          "capacity": "6000 mAh",
+          "charging": "25W wired"
+        },
+        "os": "Android 14 (One UI 6.1)",
+        "connectivity": [
+          "5G",
+          "Wi-Fi 6",
+          "Bluetooth 5.3",
+          "USB-C"
+        ],
+        "waterResistance": "N/A"
+      },
+      "colors": [
+        "Dark Blue",
+        "Light Blue",
+        "Gray"
+      ],
+      "weight": "222g",
+      "dimensions": "162.3 x 78.6 x 9.1 mm",
+      "features": [
+        "6000 mAh battery",
+        "microSD slot"
+      ]
+    },
+    {
+      "id": 78,
+      "brand": "Samsung",
+      "model": "Galaxy M55",
+      "price": 399,
+      "releaseDate": "2024-03-28",
+      "image": "https://fdn2.gsmarena.com/vv/pics/samsung/samsung-galaxy-m55-1.jpg",
+      "specs": {
+        "display": {
+          "size": "6.7 inches",
+          "type": "Super AMOLED+",
+          "resolution": "2400 x 1080",
+          "refreshRate": "120Hz"
+        },
+        "processor": "Snapdragon 7 Gen 1",
+        "ram": "8GB",
+        "storage": [
+          "128GB",
+          "256GB"
+        ],
+        "camera": {
+          "main": "50MP",
+          "ultraWide": "8MP",
+          "telephoto": "2MP macro",
+          "front": "50MP"
+        },
+        "battery": {
+          "capacity": "5000 mAh",
+          "charging": "45W wired"
+        },
+        "os": "Android 14 (One UI 6.1)",
+        "connectivity": [
+          "5G",
+          "Wi-Fi 6",
+          "Bluetooth 5.2",
+          "USB-C"
+        ],
+        "waterResistance": "N/A"
+      },
+      "colors": [
+        "Dark Blue",
+        "Light Green"
+      ],
+      "weight": "180g",
+      "dimensions": "163.9 x 76.5 x 7.8 mm",
+      "features": [
+        "45W charging",
+        "50MP selfie"
+      ]
+    },
+    {
+      "id": 79,
+      "brand": "Samsung",
+      "model": "Galaxy S23",
+      "price": 799,
+      "releaseDate": "2023-02-17",
+      "image": "https://fdn2.gsmarena.com/vv/pics/samsung/samsung-galaxy-s23-5g-1.jpg",
+      "specs": {
+        "display": {
+          "size": "6.1 inches",
+          "type": "Dynamic AMOLED 2X",
+          "resolution": "2340 x 1080",
+          "refreshRate": "120Hz"
+        },
+        "processor": "Snapdragon 8 Gen 2",
+        "ram": "8GB",
+        "storage": [
+          "128GB",
+          "256GB"
+        ],
+        "camera": {
+          "main": "50MP",
+          "ultraWide": "12MP",
+          "telephoto": "10MP (3x optical)",
+          "front": "12MP"
+        },
+        "battery": {
+          "capacity": "3900 mAh",
+          "charging": "25W wired, 15W wireless"
+        },
+        "os": "Android 13 (One UI 5.1)",
+        "connectivity": [
+          "5G",
+          "Wi-Fi 6E",
+          "Bluetooth 5.3",
+          "USB-C"
+        ],
+        "waterResistance": "IP68"
+      },
+      "colors": [
+        "Phantom Black",
+        "Cream",
+        "Green",
+        "Lavender"
+      ],
+      "weight": "168g",
+      "dimensions": "146.3 x 70.9 x 7.6 mm",
+      "features": [
+        "Compact flagship"
+      ]
+    },
+    {
+      "id": 80,
+      "brand": "Samsung",
+      "model": "Galaxy S23 Ultra",
+      "price": 1249,
+      "releaseDate": "2023-02-17",
+      "image": "https://fdn2.gsmarena.com/vv/pics/samsung/samsung-galaxy-s23-ultra-5g-1.jpg",
+      "specs": {
+        "display": {
+          "size": "6.8 inches",
+          "type": "Dynamic AMOLED 2X",
+          "resolution": "3088 x 1440",
+          "refreshRate": "120Hz"
+        },
+        "processor": "Snapdragon 8 Gen 2",
+        "ram": "8GB",
+        "storage": [
+          "256GB",
+          "512GB",
+          "1TB"
+        ],
+        "camera": {
+          "main": "200MP",
+          "ultraWide": "12MP",
+          "telephoto": "10MP (10x optical) + 10MP (3x optical)",
+          "front": "12MP"
+        },
+        "battery": {
+          "capacity": "5000 mAh",
+          "charging": "45W wired, 15W wireless"
+        },
+        "os": "Android 13 (One UI 5.1)",
+        "connectivity": [
+          "5G",
+          "Wi-Fi 6E",
+          "Bluetooth 5.3",
+          "USB-C"
+        ],
+        "waterResistance": "IP68"
+      },
+      "colors": [
+        "Phantom Black",
+        "Cream",
+        "Green",
+        "Lavender"
+      ],
+      "weight": "234g",
+      "dimensions": "163.4 x 78.1 x 8.9 mm",
+      "features": [
+        "S Pen included",
+        "200MP camera"
+      ]
+    },
+    {
+      "id": 81,
+      "brand": "Samsung",
+      "model": "Galaxy S23+",
+      "price": 1049,
+      "releaseDate": "2023-02-17",
+      "image": "https://fdn2.gsmarena.com/vv/pics/samsung/samsung-galaxy-s23-plus-5g-1.jpg",
+      "specs": {
+        "display": {
+          "size": "6.6 inches",
+          "type": "Dynamic AMOLED 2X",
+          "resolution": "2340 x 1080",
+          "refreshRate": "120Hz"
+        },
+        "processor": "Snapdragon 8 Gen 2",
+        "ram": "8GB",
+        "storage": [
+          "256GB",
+          "512GB"
+        ],
+        "camera": {
+          "main": "50MP",
+          "ultraWide": "12MP",
+          "telephoto": "10MP (3x optical)",
+          "front": "12MP"
+        },
+        "battery": {
+          "capacity": "4700 mAh",
+          "charging": "45W wired, 15W wireless"
+        },
+        "os": "Android 13 (One UI 5.1)",
+        "connectivity": [
+          "5G",
+          "Wi-Fi 6E",
+          "Bluetooth 5.3",
+          "USB-C"
+        ],
+        "waterResistance": "IP68"
+      },
+      "colors": [
+        "Phantom Black",
+        "Cream",
+        "Green",
+        "Lavender"
+      ],
+      "weight": "196g",
+      "dimensions": "157.8 x 76.2 x 7.6 mm",
+      "features": [
+        "45W charging"
+      ]
+    },
+    {
+      "id": 82,
+      "brand": "Samsung",
+      "model": "Galaxy S24",
+      "price": 799,
+      "releaseDate": "2024-01-24",
+      "image": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-s24-5g-sm-s921.jpg",
+      "specs": {
+        "display": {
+          "size": "6.2 inches",
+          "type": "Dynamic AMOLED 2X",
+          "resolution": "2340 x 1080",
+          "refreshRate": "120Hz"
+        },
+        "processor": "Snapdragon 8 Gen 3 / Exynos 2400",
+        "ram": "8GB",
+        "storage": [
+          "128GB",
+          "256GB"
+        ],
+        "camera": {
+          "main": "50MP",
+          "ultraWide": "12MP",
+          "telephoto": "10MP (3x optical)",
+          "front": "12MP"
+        },
+        "battery": {
+          "capacity": "4000 mAh",
+          "charging": "25W wired, 15W wireless"
+        },
+        "os": "Android 14 (One UI 6.1)",
+        "connectivity": [
+          "5G",
+          "Wi-Fi 6E",
+          "Bluetooth 5.3",
+          "USB-C"
+        ],
+        "waterResistance": "IP68"
+      },
+      "colors": [
+        "Onyx Black",
+        "Marble Gray",
+        "Cobalt Violet",
+        "Amber Yellow"
+      ],
+      "weight": "167g",
+      "dimensions": "147.0 x 70.6 x 7.6 mm",
+      "features": [
+        "AI photo editing",
+        "Circle to Search",
+        "7 years of updates"
+      ]
+    },
+    {
+      "id": 83,
+      "brand": "Samsung",
+      "model": "Galaxy S24 FE",
+      "price": 649,
+      "releaseDate": "2024-09-26",
+      "image": "https://fdn2.gsmarena.com/vv/pics/samsung/samsung-galaxy-s24-fe-1.jpg",
+      "specs": {
+        "display": {
+          "size": "6.7 inches",
+          "type": "Dynamic AMOLED 2X",
+          "resolution": "2340 x 1080",
+          "refreshRate": "120Hz"
+        },
+        "processor": "Exynos 2400e",
+        "ram": "8GB",
+        "storage": [
+          "128GB",
+          "256GB"
+        ],
+        "camera": {
+          "main": "50MP",
+          "ultraWide": "12MP",
+          "telephoto": "8MP (3x optical)",
+          "front": "10MP"
+        },
+        "battery": {
+          "capacity": "4700 mAh",
+          "charging": "25W wired, 15W wireless"
+        },
+        "os": "Android 14 (One UI 6.1)",
+        "connectivity": [
+          "5G",
+          "Wi-Fi 6E",
+          "Bluetooth 5.3",
+          "USB-C"
+        ],
+        "waterResistance": "IP68"
+      },
+      "colors": [
+        "Blue",
+        "Graphite",
+        "Gray",
+        "Mint"
+      ],
+      "weight": "213g",
+      "dimensions": "162 x 77.3 x 8 mm",
+      "features": [
+        "Galaxy AI",
+        "7 years of updates"
+      ]
+    },
+    {
+      "id": 84,
+      "brand": "Samsung",
+      "model": "Galaxy S24 Ultra",
+      "price": 1299,
+      "releaseDate": "2024-01-24",
+      "image": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-s24-ultra-5g-sm-s928-stylus.jpg",
+      "specs": {
+        "display": {
+          "size": "6.8 inches",
+          "type": "Dynamic AMOLED 2X",
+          "resolution": "3120 x 1440",
+          "refreshRate": "120Hz"
+        },
+        "processor": "Snapdragon 8 Gen 3",
+        "ram": "12GB",
+        "storage": [
+          "256GB",
+          "512GB",
+          "1TB"
+        ],
+        "camera": {
+          "main": "200MP",
+          "ultraWide": "12MP",
+          "telephoto": "50MP (5x optical) + 10MP (3x optical)",
+          "front": "12MP"
+        },
+        "battery": {
+          "capacity": "5000 mAh",
+          "charging": "45W wired, 15W wireless"
+        },
+        "os": "Android 14 (One UI 6.1)",
+        "connectivity": [
+          "5G",
+          "Wi-Fi 7",
+          "Bluetooth 5.3",
+          "USB-C"
+        ],
+        "waterResistance": "IP68"
+      },
+      "colors": [
+        "Titanium Gray",
+        "Titanium Black",
+        "Titanium Violet",
+        "Titanium Yellow"
+      ],
+      "weight": "232g",
+      "dimensions": "162.3 x 79.0 x 8.6 mm",
+      "features": [
+        "S Pen included",
+        "AI photo editing",
+        "Circle to Search"
+      ]
+    },
+    {
+      "id": 85,
+      "brand": "Samsung",
+      "model": "Galaxy S24+",
+      "price": 999,
+      "releaseDate": "2024-01-24",
+      "image": "https://fdn2.gsmarena.com/vv/pics/samsung/samsung-galaxy-s24-plus-5g-sm-s926-1.jpg",
+      "specs": {
+        "display": {
+          "size": "6.7 inches",
+          "type": "Dynamic AMOLED 2X",
+          "resolution": "3120 x 1440",
+          "refreshRate": "120Hz"
+        },
+        "processor": "Snapdragon 8 Gen 3 / Exynos 2400",
+        "ram": "12GB",
+        "storage": [
+          "256GB",
+          "512GB"
+        ],
+        "camera": {
+          "main": "50MP",
+          "ultraWide": "12MP",
+          "telephoto": "10MP (3x optical)",
+          "front": "12MP"
+        },
+        "battery": {
+          "capacity": "4900 mAh",
+          "charging": "45W wired, 15W wireless"
+        },
+        "os": "Android 14 (One UI 6.1)",
+        "connectivity": [
+          "5G",
+          "Wi-Fi 7",
+          "Bluetooth 5.3",
+          "USB-C"
+        ],
+        "waterResistance": "IP68"
+      },
+      "colors": [
+        "Onyx Black",
+        "Marble Gray",
+        "Cobalt Violet",
+        "Amber Yellow"
+      ],
+      "weight": "196g",
+      "dimensions": "158.5 x 75.9 x 7.7 mm",
+      "features": [
+        "Galaxy AI",
+        "7 years of updates"
+      ]
+    },
+    {
+      "id": 86,
+      "brand": "Samsung",
+      "model": "Galaxy S25",
+      "price": 799,
+      "releaseDate": "2025-01-22",
+      "image": "https://fdn2.gsmarena.com/vv/pics/samsung/samsung-galaxy-s25-sm-s931-1.jpg",
+      "specs": {
+        "display": {
+          "size": "6.2 inches",
+          "type": "Dynamic AMOLED 2X",
+          "resolution": "2340 x 1080",
+          "refreshRate": "120Hz"
+        },
+        "processor": "Snapdragon 8 Elite",
+        "ram": "12GB",
+        "storage": [
+          "128GB",
+          "256GB",
+          "512GB"
+        ],
+        "camera": {
+          "main": "50MP",
+          "ultraWide": "12MP",
+          "telephoto": "10MP (3x optical)",
+          "front": "12MP"
+        },
+        "battery": {
+          "capacity": "4000 mAh",
+          "charging": "25W wired, 15W wireless"
+        },
+        "os": "Android 15 (One UI 7)",
+        "connectivity": [
+          "5G",
+          "Wi-Fi 7",
+          "Bluetooth 5.4",
+          "USB-C"
+        ],
+        "waterResistance": "IP68"
+      },
+      "colors": [
+        "Navy",
+        "Silver Shadow",
+        "Icy Blue",
+        "Mint"
+      ],
+      "weight": "162g",
+      "dimensions": "146.9 x 70.5 x 7.2 mm",
+      "features": [
+        "Galaxy AI",
+        "7 years of updates"
+      ]
+    },
+    {
+      "id": 87,
+      "brand": "Samsung",
+      "model": "Galaxy S25 Ultra",
+      "price": 1349,
+      "releaseDate": "2025-01-22",
+      "image": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-s25-ultra-sm-s938.jpg",
+      "specs": {
+        "display": {
+          "size": "6.9 inches",
+          "type": "Dynamic AMOLED 2X",
+          "resolution": "3088 x 1440",
+          "refreshRate": "120Hz"
+        },
+        "processor": "Snapdragon 8 Elite",
+        "ram": "12GB",
+        "storage": [
+          "256GB",
+          "512GB",
+          "1TB"
+        ],
+        "camera": {
+          "main": "200MP",
+          "ultraWide": "50MP",
+          "telephoto": "50MP (5x optical) + 10MP (3x optical)",
+          "front": "12MP"
+        },
+        "battery": {
+          "capacity": "5000 mAh",
+          "charging": "45W wired, 15W wireless"
+        },
+        "os": "Android 15 (One UI 7)",
+        "connectivity": [
+          "5G",
+          "Wi-Fi 7",
+          "Bluetooth 5.4",
+          "USB-C (USB 3.2)"
+        ],
+        "waterResistance": "IP68"
+      },
+      "colors": [
+        "Titanium Silverblue",
+        "Titanium Black",
+        "Titanium White Silver",
+        "Titanium Gray"
+      ],
+      "weight": "218g",
+      "dimensions": "162.8 x 77.6 x 8.2 mm",
+      "features": [
+        "S Pen included",
+        "Galaxy AI",
+        "Sketch to Image"
+      ]
+    },
+    {
+      "id": 88,
+      "brand": "Samsung",
+      "model": "Galaxy S25+",
+      "price": 999,
+      "releaseDate": "2025-01-22",
+      "image": "https://fdn2.gsmarena.com/vv/pics/samsung/samsung-galaxy-s25-plus-sm-s936-1.jpg",
+      "specs": {
+        "display": {
+          "size": "6.7 inches",
+          "type": "Dynamic AMOLED 2X",
+          "resolution": "3120 x 1440",
+          "refreshRate": "120Hz"
+        },
+        "processor": "Snapdragon 8 Elite",
+        "ram": "12GB",
+        "storage": [
+          "256GB",
+          "512GB"
+        ],
+        "camera": {
+          "main": "50MP",
+          "ultraWide": "12MP",
+          "telephoto": "10MP (3x optical)",
+          "front": "12MP"
+        },
+        "battery": {
+          "capacity": "4900 mAh",
+          "charging": "45W wired, 15W wireless"
+        },
+        "os": "Android 15 (One UI 7)",
+        "connectivity": [
+          "5G",
+          "Wi-Fi 7",
+          "Bluetooth 5.4",
+          "USB-C"
+        ],
+        "waterResistance": "IP68"
+      },
+      "colors": [
+        "Navy",
+        "Silver Shadow",
+        "Icy Blue",
+        "Mint"
+      ],
+      "weight": "190g",
+      "dimensions": "158.4 x 75.8 x 7.3 mm",
+      "features": [
+        "Galaxy AI",
+        "QHD+ display"
+      ]
+    },
+    {
+      "id": 89,
+      "brand": "Samsung",
+      "model": "Galaxy Z Flip5",
+      "price": 999,
+      "releaseDate": "2023-08-11",
+      "image": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-z-flip5-5g.jpg",
+      "specs": {
+        "display": {
+          "size": "6.7 inches",
+          "type": "Dynamic AMOLED 2X",
+          "resolution": "2640 x 1080",
+          "refreshRate": "120Hz"
+        },
+        "processor": "Snapdragon 8 Gen 2",
+        "ram": "8GB",
+        "storage": [
+          "256GB",
+          "512GB"
+        ],
+        "camera": {
+          "main": "12MP",
+          "ultraWide": "12MP",
+          "telephoto": "N/A",
+          "front": "10MP"
+        },
+        "battery": {
+          "capacity": "3700 mAh",
+          "charging": "25W wired, 15W wireless"
+        },
+        "os": "Android 13 (One UI 5.1.1)",
+        "connectivity": [
+          "5G",
+          "Wi-Fi 6E",
+          "Bluetooth 5.3",
+          "USB-C"
+        ],
+        "waterResistance": "IPX8"
+      },
+      "colors": [
+        "Mint",
+        "Graphite",
+        "Cream",
+        "Lavender"
+      ],
+      "weight": "187g",
+      "dimensions": "165.1 x 71.9 x 6.9 mm (unfolded)",
+      "features": [
+        "Large cover display",
+        "Foldable design"
+      ]
+    },
+    {
+      "id": 90,
+      "brand": "Samsung",
+      "model": "Galaxy Z Flip6",
+      "price": 1049,
+      "releaseDate": "2024-07-24",
+      "image": "https://fdn2.gsmarena.com/vv/pics/samsung/samsung-galaxy-z-flip6-1.jpg",
+      "specs": {
+        "display": {
+          "size": "6.7 inches",
+          "type": "Dynamic AMOLED 2X",
+          "resolution": "2640 x 1080",
+          "refreshRate": "120Hz"
+        },
+        "processor": "Snapdragon 8 Gen 3",
+        "ram": "12GB",
+        "storage": [
+          "256GB",
+          "512GB"
+        ],
+        "camera": {
+          "main": "50MP",
+          "ultraWide": "12MP",
+          "telephoto": "N/A",
+          "front": "10MP"
+        },
+        "battery": {
+          "capacity": "4000 mAh",
+          "charging": "25W wired, 15W wireless"
+        },
+        "os": "Android 14 (One UI 6.1.1)",
+        "connectivity": [
+          "5G",
+          "Wi-Fi 6E",
+          "Bluetooth 5.3",
+          "USB-C"
+        ],
+        "waterResistance": "IP48"
+      },
+      "colors": [
+        "Silver Shadow",
+        "Yellow",
+        "Blue",
+        "Mint"
+      ],
+      "weight": "187g",
+      "dimensions": "165.1 x 71.9 x 6.9 mm (unfolded)",
+      "features": [
+        "FlexWindow",
+        "Galaxy AI",
+        "Foldable design"
+      ]
+    },
+    {
+      "id": 91,
+      "brand": "Samsung",
+      "model": "Galaxy Z Fold5",
+      "price": 1599,
+      "releaseDate": "2023-08-11",
+      "image": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-z-fold5-5g.jpg",
+      "specs": {
+        "display": {
+          "size": "7.6 inches",
+          "type": "Dynamic AMOLED 2X",
+          "resolution": "2176 x 1812",
+          "refreshRate": "120Hz"
+        },
+        "processor": "Snapdragon 8 Gen 2",
+        "ram": "12GB",
+        "storage": [
+          "256GB",
+          "512GB",
+          "1TB"
+        ],
+        "camera": {
+          "main": "50MP",
+          "ultraWide": "12MP",
+          "telephoto": "10MP (3x optical)",
+          "front": "10MP"
+        },
+        "battery": {
+          "capacity": "4400 mAh",
+          "charging": "25W wired, 15W wireless"
+        },
+        "os": "Android 13 (One UI 5.1.1)",
+        "connectivity": [
+          "5G",
+          "Wi-Fi 6E",
+          "Bluetooth 5.3",
+          "USB-C"
+        ],
+        "waterResistance": "IPX8"
+      },
+      "colors": [
+        "Icy Blue",
+        "Phantom Black",
+        "Cream"
+      ],
+      "weight": "253g",
+      "dimensions": "154.9 x 129.9 x 6.1 mm (unfolded)",
+      "features": [
+        "Foldable design",
+        "Taskbar multitasking"
+      ]
+    },
+    {
+      "id": 92,
+      "brand": "Samsung",
+      "model": "Galaxy Z Fold6",
+      "price": 1799,
+      "releaseDate": "2024-07-24",
+      "image": "https://fdn2.gsmarena.com/vv/pics/samsung/samsung-galaxy-z-fold6-1.jpg",
+      "specs": {
+        "display": {
+          "size": "7.6 inches",
+          "type": "Dynamic AMOLED 2X",
+          "resolution": "2160 x 1856",
+          "refreshRate": "120Hz"
+        },
+        "processor": "Snapdragon 8 Gen 3",
+        "ram": "12GB",
+        "storage": [
+          "256GB",
+          "512GB",
+          "1TB"
+        ],
+        "camera": {
+          "main": "50MP",
+          "ultraWide": "12MP",
+          "telephoto": "10MP (3x optical)",
+          "front": "10MP"
+        },
+        "battery": {
+          "capacity": "4400 mAh",
+          "charging": "25W wired, 15W wireless"
+        },
+        "os": "Android 14 (One UI 6.1.1)",
+        "connectivity": [
+          "5G",
+          "Wi-Fi 6E",
+          "Bluetooth 5.3",
+          "USB-C"
+        ],
+        "waterResistance": "IP48"
+      },
+      "colors": [
+        "Silver Shadow",
+        "Pink",
+        "Navy"
+      ],
+      "weight": "239g",
+      "dimensions": "153.5 x 132.6 x 5.6 mm (unfolded)",
+      "features": [
+        "Foldable design",
+        "Galaxy AI",
+        "S Pen support"
+      ]
+    },
+    {
+      "id": 93,
+      "brand": "Sony",
+      "model": "Xperia 1 V",
+      "price": 1199,
+      "releaseDate": "2023-07-28",
+      "image": "https://fdn2.gsmarena.com/vv/pics/sony/sony-xperia-1-v-1.jpg",
+      "specs": {
+        "display": {
+          "size": "6.5 inches",
+          "type": "OLED",
+          "resolution": "3840 x 1644",
+          "refreshRate": "120Hz"
+        },
+        "processor": "Snapdragon 8 Gen 2",
+        "ram": "12GB",
+        "storage": [
+          "256GB",
+          "512GB"
+        ],
+        "camera": {
+          "main": "52MP",
+          "ultraWide": "12MP",
+          "telephoto": "12MP (3.5-5.2x optical zoom)",
+          "front": "12MP"
+        },
+        "battery": {
+          "capacity": "5000 mAh",
+          "charging": "30W wired, 15W wireless"
+        },
+        "os": "Android 13",
+        "connectivity": [
+          "5G",
+          "Wi-Fi 6E",
+          "Bluetooth 5.3",
+          "USB-C"
+        ],
+        "waterResistance": "IP65/68"
+      },
+      "colors": [
+        "Black",
+        "Khaki Green",
+        "Platinum Silver"
+      ],
+      "weight": "187g",
+      "dimensions": "165 x 71 x 8.3 mm",
+      "features": [
+        "4K OLED display",
+        "3.5mm headphone jack",
+        "microSD slot"
+      ]
+    },
+    {
+      "id": 94,
+      "brand": "Sony",
+      "model": "Xperia 1 VI",
+      "price": 1299,
+      "releaseDate": "2024-05-17",
+      "image": "https://fdn2.gsmarena.com/vv/bigpic/sony-xperia-1-vi-red.jpg",
+      "specs": {
+        "display": {
+          "size": "6.5 inches",
+          "type": "OLED",
+          "resolution": "2340 x 1080",
+          "refreshRate": "120Hz"
+        },
+        "processor": "Snapdragon 8 Gen 3",
+        "ram": "12GB",
+        "storage": [
+          "256GB",
+          "512GB"
+        ],
+        "camera": {
+          "main": "52MP",
+          "ultraWide": "12MP",
+          "telephoto": "12MP (3.5–7.1x optical zoom)",
+          "front": "12MP"
+        },
+        "battery": {
+          "capacity": "5000 mAh",
+          "charging": "30W wired, 15W wireless"
+        },
+        "os": "Android 14",
+        "connectivity": [
+          "5G",
+          "Wi-Fi 7",
+          "Bluetooth 5.4",
+          "USB-C (USB 3.2)"
+        ],
+        "waterResistance": "IP65/68"
+      },
+      "colors": [
+        "Black",
+        "Platinum Silver",
+        "Khaki Green"
+      ],
+      "weight": "192g",
+      "dimensions": "162.0 x 74.0 x 8.2 mm",
+      "features": [
+        "Variable telephoto zoom",
+        "4K HDR video",
+        "3.5mm headphone jack",
+        "microSD slot"
+      ]
+    },
+    {
+      "id": 95,
+      "brand": "Sony",
+      "model": "Xperia 10 V",
+      "price": 349,
+      "releaseDate": "2023-06-21",
+      "image": "https://fdn2.gsmarena.com/vv/pics/sony/sony-xperia-10-v-1.jpg",
+      "specs": {
+        "display": {
+          "size": "6.1 inches",
+          "type": "OLED",
+          "resolution": "2520 x 1080",
+          "refreshRate": "60Hz"
+        },
+        "processor": "Snapdragon 695",
+        "ram": "6GB",
+        "storage": [
+          "128GB"
+        ],
+        "camera": {
+          "main": "48MP",
+          "ultraWide": "8MP",
+          "telephoto": "8MP (2x optical)",
+          "front": "8MP"
+        },
+        "battery": {
+          "capacity": "5000 mAh",
+          "charging": "30W wired"
+        },
+        "os": "Android 13",
+        "connectivity": [
+          "5G",
+          "Wi-Fi 5",
+          "Bluetooth 5.1",
+          "USB-C"
+        ],
+        "waterResistance": "IP65/68"
+      },
+      "colors": [
+        "Black",
+        "White",
+        "Lavender",
+        "Sage Green"
+      ],
+      "weight": "159g",
+      "dimensions": "155 x 68 x 8.3 mm",
+      "features": [
+        "Lightweight",
+        "microSD slot",
+        "3.5mm headphone jack"
+      ]
+    },
+    {
+      "id": 96,
+      "brand": "Sony",
+      "model": "Xperia 10 VI",
+      "price": 349,
+      "releaseDate": "2024-06-13",
+      "image": "https://fdn2.gsmarena.com/vv/bigpic/sony-xperia-10-vi.jpg",
+      "specs": {
+        "display": {
+          "size": "6.1 inches",
+          "type": "OLED",
+          "resolution": "2520 x 1080",
+          "refreshRate": "60Hz"
+        },
+        "processor": "Snapdragon 6 Gen 1",
+        "ram": "8GB",
+        "storage": [
+          "128GB"
+        ],
+        "camera": {
+          "main": "48MP",
+          "ultraWide": "8MP",
+          "telephoto": "N/A",
+          "front": "8MP"
+        },
+        "battery": {
+          "capacity": "5000 mAh",
+          "charging": "30W wired"
+        },
+        "os": "Android 14",
+        "connectivity": [
+          "5G",
+          "Wi-Fi 5",
+          "Bluetooth 5.2",
+          "USB-C"
+        ],
+        "waterResistance": "IP65/68"
+      },
+      "colors": [
+        "Black",
+        "White",
+        "Blue"
+      ],
+      "weight": "164g",
+      "dimensions": "155 x 68 x 8.3 mm",
+      "features": [
+        "3.5mm headphone jack",
+        "microSD slot"
+      ]
+    },
+    {
+      "id": 97,
+      "brand": "Sony",
+      "model": "Xperia 5 V",
+      "price": 849,
+      "releaseDate": "2023-10-01",
+      "image": "https://fdn2.gsmarena.com/vv/bigpic/sony-xperia-5-v-new.jpg",
+      "specs": {
+        "display": {
+          "size": "6.1 inches",
+          "type": "OLED",
+          "resolution": "2520 x 1080",
+          "refreshRate": "120Hz"
+        },
+        "processor": "Snapdragon 8 Gen 2",
+        "ram": "8GB",
+        "storage": [
+          "128GB"
+        ],
+        "camera": {
+          "main": "52MP",
+          "ultraWide": "12MP",
+          "telephoto": "N/A",
+          "front": "12MP"
+        },
+        "battery": {
+          "capacity": "5000 mAh",
+          "charging": "30W wired, 15W wireless"
+        },
+        "os": "Android 13",
+        "connectivity": [
+          "5G",
+          "Wi-Fi 6E",
+          "Bluetooth 5.3",
+          "USB-C"
+        ],
+        "waterResistance": "IP65/68"
+      },
+      "colors": [
+        "Black",
+        "Blue",
+        "Platinum Silver"
+      ],
+      "weight": "182g",
+      "dimensions": "154 x 68 x 8.6 mm",
+      "features": [
+        "3.5mm headphone jack",
+        "microSD slot"
+      ]
+    },
+    {
+      "id": 98,
+      "brand": "Vivo",
+      "model": "V30",
+      "price": 399,
+      "releaseDate": "2024-03-28",
+      "image": "https://fdn2.gsmarena.com/vv/pics/vivo/vivo-v30-1.jpg",
+      "specs": {
+        "display": {
+          "size": "6.78 inches",
+          "type": "AMOLED",
+          "resolution": "2800 x 1260",
+          "refreshRate": "120Hz"
+        },
+        "processor": "Snapdragon 7 Gen 3",
+        "ram": "8GB",
+        "storage": [
+          "128GB",
+          "256GB"
+        ],
+        "camera": {
+          "main": "50MP",
+          "ultraWide": "50MP",
+          "telephoto": "N/A",
+          "front": "50MP"
+        },
+        "battery": {
+          "capacity": "5000 mAh",
+          "charging": "80W wired"
+        },
+        "os": "Android 14 (Funtouch OS 14)",
+        "connectivity": [
+          "5G",
+          "Wi-Fi 6",
+          "Bluetooth 5.4",
+          "USB-C"
+        ],
+        "waterResistance": "N/A"
+      },
+      "colors": [
+        "Waving Aqua",
+        "Lush Green",
+        "Noble Black"
+      ],
+      "weight": "186g",
+      "dimensions": "164.4 x 75.1 x 7.5 mm",
+      "features": [
+        "50MP selfie",
+        "Aura Light"
+      ]
+    },
+    {
+      "id": 99,
+      "brand": "Vivo",
+      "model": "V40 Pro",
+      "price": 699,
+      "releaseDate": "2024-08-07",
+      "image": "https://fdn2.gsmarena.com/vv/pics/vivo/vivo-v40-pro-1.jpg",
+      "specs": {
+        "display": {
+          "size": "6.78 inches",
+          "type": "AMOLED",
+          "resolution": "2800 x 1260",
+          "refreshRate": "120Hz"
+        },
+        "processor": "Dimensity 9200+",
+        "ram": "12GB",
+        "storage": [
+          "256GB",
+          "512GB"
+        ],
+        "camera": {
+          "main": "50MP",
+          "ultraWide": "50MP",
+          "telephoto": "50MP (2x optical zoom)",
+          "front": "50MP"
+        },
+        "battery": {
+          "capacity": "5500 mAh",
+          "charging": "80W wired"
+        },
+        "os": "Android 14 (Funtouch OS 14)",
+        "connectivity": [
+          "5G",
+          "Wi-Fi 6",
+          "Bluetooth 5.3",
+          "USB-C"
+        ],
+        "waterResistance": "IP68/IP69"
+      },
+      "colors": [
+        "Ganges Blue",
+        "Titanium Grey"
+      ],
+      "weight": "192g",
+      "dimensions": "164.4 x 75.1 x 7.6 mm",
+      "features": [
+        "ZEISS portraits",
+        "50MP selfie"
+      ]
+    },
+    {
+      "id": 100,
+      "brand": "Vivo",
+      "model": "X100 Pro",
+      "price": 999,
+      "releaseDate": "2024-01-11",
+      "image": "https://fdn2.gsmarena.com/vv/pics/vivo/vivo-x100-pro-1.jpg",
+      "specs": {
+        "display": {
+          "size": "6.78 inches",
+          "type": "LTPO AMOLED",
+          "resolution": "2800 x 1260",
+          "refreshRate": "120Hz"
+        },
+        "processor": "Dimensity 9300",
+        "ram": "16GB",
+        "storage": [
+          "512GB"
+        ],
+        "camera": {
+          "main": "50MP (1-inch)",
+          "ultraWide": "50MP",
+          "telephoto": "50MP (4.3x optical zoom)",
+          "front": "32MP"
+        },
+        "battery": {
+          "capacity": "5400 mAh",
+          "charging": "100W wired, 50W wireless"
+        },
+        "os": "Android 14 (Funtouch OS 14)",
+        "connectivity": [
+          "5G",
+          "Wi-Fi 7",
+          "Bluetooth 5.4",
+          "USB-C"
+        ],
+        "waterResistance": "IP68"
+      },
+      "colors": [
+        "Asteroid Black",
+        "Startrail Blue"
+      ],
+      "weight": "225g",
+      "dimensions": "164.1 x 75.3 x 8.9 mm",
+      "features": [
+        "ZEISS APO telephoto"
+      ]
+    },
+    {
+      "id": 101,
+      "brand": "Vivo",
+      "model": "X100 Ultra",
+      "price": 1099,
+      "releaseDate": "2024-05-28",
+      "image": "https://fdn2.gsmarena.com/vv/pics/vivo/vivo-x100-ultra-1.jpg",
+      "specs": {
+        "display": {
+          "size": "6.78 inches",
+          "type": "LTPO AMOLED",
+          "resolution": "3200 x 1440",
+          "refreshRate": "120Hz"
+        },
+        "processor": "Snapdragon 8 Gen 3",
+        "ram": "12GB",
+        "storage": [
+          "256GB",
+          "512GB",
+          "1TB"
+        ],
+        "camera": {
+          "main": "50MP (1-inch)",
+          "ultraWide": "50MP",
+          "telephoto": "200MP (3.7x optical zoom)",
+          "front": "50MP"
+        },
+        "battery": {
+          "capacity": "5500 mAh",
+          "charging": "80W wired, 30W wireless"
+        },
+        "os": "Android 14 (OriginOS 4)",
+        "connectivity": [
+          "5G",
+          "Wi-Fi 7",
+          "Bluetooth 5.4",
+          "USB-C"
+        ],
+        "waterResistance": "IP69/IP68"
+      },
+      "colors": [
+        "Titanium",
+        "White",
+        "Gray"
+      ],
+      "weight": "229g",
+      "dimensions": "164.1 x 75.6 x 9.2 mm",
+      "features": [
+        "ZEISS optics",
+        "200MP telephoto"
+      ]
+    },
+    {
+      "id": 102,
+      "brand": "Vivo",
+      "model": "X200 Pro",
+      "price": 1199,
+      "releaseDate": "2024-11-22",
+      "image": "https://fdn2.gsmarena.com/vv/pics/vivo/vivo-x200-pro-1.jpg",
+      "specs": {
+        "display": {
+          "size": "6.78 inches",
+          "type": "LTPO AMOLED",
+          "resolution": "2800 x 1260",
+          "refreshRate": "120Hz"
+        },
+        "processor": "Dimensity 9400",
+        "ram": "16GB",
+        "storage": [
+          "512GB"
+        ],
+        "camera": {
+          "main": "50MP",
+          "ultraWide": "50MP",
+          "telephoto": "200MP (3.7x optical zoom)",
+          "front": "32MP"
+        },
+        "battery": {
+          "capacity": "6000 mAh",
+          "charging": "90W wired, 30W wireless"
+        },
+        "os": "Android 15 (Funtouch OS 15)",
+        "connectivity": [
+          "5G",
+          "Wi-Fi 7",
+          "Bluetooth 5.4",
+          "USB-C"
+        ],
+        "waterResistance": "IP68/IP69"
+      },
+      "colors": [
+        "Titanium Gray",
+        "Cosmos Black"
+      ],
+      "weight": "228g",
+      "dimensions": "162.4 x 76 x 8.5 mm",
+      "features": [
+        "ZEISS optics",
+        "200MP telephoto"
+      ]
+    },
+    {
+      "id": 103,
+      "brand": "Xiaomi",
+      "model": "13T Pro",
+      "price": 649,
+      "releaseDate": "2023-09-26",
+      "image": "https://fdn2.gsmarena.com/vv/pics/xiaomi/xiaomi-13t-pro-1.jpg",
+      "specs": {
+        "display": {
+          "size": "6.67 inches",
+          "type": "AMOLED",
+          "resolution": "2712 x 1220",
+          "refreshRate": "144Hz"
+        },
+        "processor": "Dimensity 9200+",
+        "ram": "12GB",
+        "storage": [
+          "256GB",
+          "512GB",
+          "1TB"
+        ],
+        "camera": {
+          "main": "50MP",
+          "ultraWide": "12MP",
+          "telephoto": "50MP (2x optical zoom)",
+          "front": "20MP"
+        },
+        "battery": {
+          "capacity": "5000 mAh",
+          "charging": "120W wired"
+        },
+        "os": "Android 13 (MIUI 14)",
+        "connectivity": [
+          "5G",
+          "Wi-Fi 7",
+          "Bluetooth 5.4",
+          "USB-C"
+        ],
+        "waterResistance": "IP68"
+      },
+      "colors": [
+        "Alpine Blue",
+        "Meadow Green",
+        "Black"
+      ],
+      "weight": "206g",
+      "dimensions": "162.2 x 75.7 x 8.5 mm",
+      "features": [
+        "Leica cameras",
+        "120W charging"
+      ]
+    },
+    {
+      "id": 104,
+      "brand": "Xiaomi",
+      "model": "14",
+      "price": 849,
+      "releaseDate": "2024-02-25",
+      "image": "https://fdn2.gsmarena.com/vv/pics/xiaomi/xiaomi-14-1.jpg",
+      "specs": {
+        "display": {
+          "size": "6.36 inches",
+          "type": "LTPO AMOLED",
+          "resolution": "2670 x 1200",
+          "refreshRate": "120Hz"
+        },
+        "processor": "Snapdragon 8 Gen 3",
+        "ram": "12GB",
+        "storage": [
+          "256GB",
+          "512GB"
+        ],
+        "camera": {
+          "main": "50MP (Leica)",
+          "ultraWide": "50MP",
+          "telephoto": "50MP (3.2x optical zoom)",
+          "front": "32MP"
+        },
+        "battery": {
+          "capacity": "4610 mAh",
+          "charging": "90W wired, 50W wireless"
+        },
+        "os": "Android 14 (HyperOS)",
+        "connectivity": [
+          "5G",
+          "Wi-Fi 7",
+          "Bluetooth 5.4",
+          "USB-C (USB 3.2)"
+        ],
+        "waterResistance": "IP68"
+      },
+      "colors": [
+        "Black",
+        "White",
+        "Jade Green"
+      ],
+      "weight": "193g",
+      "dimensions": "152.8 x 71.5 x 8.2 mm",
+      "features": [
+        "Leica camera tuning",
+        "Compact flagship"
+      ]
+    },
+    {
+      "id": 105,
+      "brand": "Xiaomi",
+      "model": "14 Ultra",
+      "price": 1199,
+      "releaseDate": "2024-02-25",
+      "image": "https://fdn2.gsmarena.com/vv/bigpic/xiaomi-14-ultra-new.jpg",
+      "specs": {
+        "display": {
+          "size": "6.73 inches",
+          "type": "LTPO AMOLED",
+          "resolution": "3200 x 1440",
+          "refreshRate": "120Hz"
+        },
+        "processor": "Snapdragon 8 Gen 3",
+        "ram": "16GB",
+        "storage": [
+          "512GB",
+          "1TB"
+        ],
+        "camera": {
+          "main": "50MP (Leica, 1-inch sensor)",
+          "ultraWide": "50MP",
+          "telephoto": "50MP (3.2x) + 50MP (5x)",
+          "front": "32MP"
+        },
+        "battery": {
+          "capacity": "5300 mAh",
+          "charging": "90W wired, 80W wireless"
+        },
+        "os": "Android 14 (HyperOS)",
+        "connectivity": [
+          "5G",
+          "Wi-Fi 7",
+          "Bluetooth 5.4",
+          "USB-C"
+        ],
+        "waterResistance": "IP68"
+      },
+      "colors": [
+        "Black",
+        "White"
+      ],
+      "weight": "229.5g",
+      "dimensions": "161.4 x 75.3 x 9.2 mm",
+      "features": [
+        "Leica camera system",
+        "Photography Kit accessory"
+      ]
+    },
+    {
+      "id": 106,
+      "brand": "Xiaomi",
+      "model": "14T",
+      "price": 549,
+      "releaseDate": "2024-09-26",
+      "image": "https://fdn2.gsmarena.com/vv/pics/xiaomi/xiaomi-14t-1.jpg",
+      "specs": {
+        "display": {
+          "size": "6.67 inches",
+          "type": "AMOLED",
+          "resolution": "2712 x 1220",
+          "refreshRate": "144Hz"
+        },
+        "processor": "Dimensity 8300-Ultra",
+        "ram": "12GB",
+        "storage": [
+          "256GB",
+          "512GB"
+        ],
+        "camera": {
+          "main": "50MP",
+          "ultraWide": "12MP",
+          "telephoto": "50MP (2.6x optical zoom)",
+          "front": "32MP"
+        },
+        "battery": {
+          "capacity": "5000 mAh",
+          "charging": "67W wired"
+        },
+        "os": "Android 14 (HyperOS)",
+        "connectivity": [
+          "5G",
+          "Wi-Fi 6E",
+          "Bluetooth 5.4",
+          "USB-C"
+        ],
+        "waterResistance": "IP68"
+      },
+      "colors": [
+        "Titan Gray",
+        "Titan Blue",
+        "Titan Black",
+        "Lemon Green"
+      ],
+      "weight": "195g",
+      "dimensions": "160.5 x 75.1 x 7.8 mm",
+      "features": [
+        "Leica camera tuning"
+      ]
+    },
+    {
+      "id": 107,
+      "brand": "Xiaomi",
+      "model": "14T Pro",
+      "price": 699,
+      "releaseDate": "2024-09-26",
+      "image": "https://fdn2.gsmarena.com/vv/pics/xiaomi/xiaomi-14t-pro-1.jpg",
+      "specs": {
+        "display": {
+          "size": "6.67 inches",
+          "type": "AMOLED",
+          "resolution": "2712 x 1220",
+          "refreshRate": "144Hz"
+        },
+        "processor": "Dimensity 9300+",
+        "ram": "12GB",
+        "storage": [
+          "256GB",
+          "512GB",
+          "1TB"
+        ],
+        "camera": {
+          "main": "50MP",
+          "ultraWide": "12MP",
+          "telephoto": "50MP (2.6x optical zoom)",
+          "front": "32MP"
+        },
+        "battery": {
+          "capacity": "5000 mAh",
+          "charging": "120W wired, 50W wireless"
+        },
+        "os": "Android 14 (HyperOS)",
+        "connectivity": [
+          "5G",
+          "Wi-Fi 7",
+          "Bluetooth 5.4",
+          "USB-C"
+        ],
+        "waterResistance": "IP68"
+      },
+      "colors": [
+        "Titan Gray",
+        "Titan Blue",
+        "Titan Black"
+      ],
+      "weight": "209g",
+      "dimensions": "160.4 x 75.1 x 8.4 mm",
+      "features": [
+        "Leica camera tuning",
+        "120W charging"
+      ]
+    },
+    {
+      "id": 108,
+      "brand": "Xiaomi",
+      "model": "15",
+      "price": 899,
+      "releaseDate": "2025-03-02",
+      "image": "https://fdn2.gsmarena.com/vv/pics/xiaomi/xiaomi-15-1.jpg",
+      "specs": {
+        "display": {
+          "size": "6.36 inches",
+          "type": "LTPO AMOLED",
+          "resolution": "2670 x 1200",
+          "refreshRate": "120Hz"
+        },
+        "processor": "Snapdragon 8 Elite",
+        "ram": "12GB",
+        "storage": [
+          "256GB",
+          "512GB"
+        ],
+        "camera": {
+          "main": "50MP (Leica)",
+          "ultraWide": "50MP",
+          "telephoto": "50MP (3x optical zoom)",
+          "front": "32MP"
+        },
+        "battery": {
+          "capacity": "5240 mAh",
+          "charging": "90W wired, 50W wireless"
+        },
+        "os": "Android 15 (HyperOS 2)",
+        "connectivity": [
+          "5G",
+          "Wi-Fi 7",
+          "Bluetooth 5.4",
+          "USB-C (USB 3.2)"
+        ],
+        "waterResistance": "IP68"
+      },
+      "colors": [
+        "Black",
+        "White",
+        "Green",
+        "Liquid Silver"
+      ],
+      "weight": "191g",
+      "dimensions": "152.3 x 71.2 x 8.1 mm",
+      "features": [
+        "Leica camera tuning",
+        "Ultrasonic fingerprint"
+      ]
+    },
+    {
+      "id": 109,
+      "brand": "Xiaomi",
+      "model": "15 Ultra",
+      "price": 1299,
+      "releaseDate": "2025-02-26",
+      "image": "https://fdn2.gsmarena.com/vv/pics/xiaomi/xiaomi-15-ultra.jpg",
+      "specs": {
+        "display": {
+          "size": "6.73 inches",
+          "type": "LTPO AMOLED",
+          "resolution": "3200 x 1440",
+          "refreshRate": "120Hz"
+        },
+        "processor": "Snapdragon 8 Elite",
+        "ram": "16GB",
+        "storage": [
+          "512GB",
+          "1TB"
+        ],
+        "camera": {
+          "main": "50MP (Leica, 1-inch sensor)",
+          "ultraWide": "50MP",
+          "telephoto": "50MP (3x) + 200MP (4.3x)",
+          "front": "32MP"
+        },
+        "battery": {
+          "capacity": "6000 mAh",
+          "charging": "90W wired, 80W wireless"
+        },
+        "os": "Android 15 (HyperOS 2)",
+        "connectivity": [
+          "5G",
+          "Wi-Fi 7",
+          "Bluetooth 5.4",
+          "USB-C (USB 3.2)"
+        ],
+        "waterResistance": "IP68"
+      },
+      "colors": [
+        "Black",
+        "White",
+        "Silver"
+      ],
+      "weight": "226g",
+      "dimensions": "161.3 x 75.6 x 9.5 mm",
+      "features": [
+        "Leica camera system",
+        "200MP periscope telephoto",
+        "6000 mAh battery"
+      ]
+    },
+    {
+      "id": 110,
+      "brand": "Xiaomi",
+      "model": "Mix Flip",
+      "price": 999,
+      "releaseDate": "2024-09-26",
+      "image": "https://fdn2.gsmarena.com/vv/pics/xiaomi/xiaomi-mix-flip-1.jpg",
+      "specs": {
+        "display": {
+          "size": "6.86 inches",
+          "type": "LTPO AMOLED",
+          "resolution": "2912 x 1224",
+          "refreshRate": "120Hz"
+        },
+        "processor": "Snapdragon 8 Gen 3",
+        "ram": "12GB",
+        "storage": [
+          "512GB"
+        ],
+        "camera": {
+          "main": "50MP",
+          "ultraWide": "50MP (2x optical zoom)",
+          "telephoto": "N/A",
+          "front": "32MP"
+        },
+        "battery": {
+          "capacity": "4780 mAh",
+          "charging": "67W wired"
+        },
+        "os": "Android 14 (HyperOS)",
+        "connectivity": [
+          "5G",
+          "Wi-Fi 7",
+          "Bluetooth 5.4",
+          "USB-C"
+        ],
+        "waterResistance": "IPX8"
+      },
+      "colors": [
+        "Black",
+        "White",
+        "Purple"
+      ],
+      "weight": "192g",
+      "dimensions": "167.5 x 74 x 7.6 mm (unfolded)",
+      "features": [
+        "Flip foldable",
+        "Leica cameras"
+      ]
+    },
+    {
+      "id": 111,
+      "brand": "Xiaomi",
+      "model": "Poco F6",
+      "price": 379,
+      "releaseDate": "2024-05-23",
+      "image": "https://fdn2.gsmarena.com/vv/pics/xiaomi/xiaomi-poco-f6-1.jpg",
+      "specs": {
+        "display": {
+          "size": "6.67 inches",
+          "type": "AMOLED",
+          "resolution": "2712 x 1220",
+          "refreshRate": "120Hz"
+        },
+        "processor": "Snapdragon 8s Gen 3",
+        "ram": "8GB",
+        "storage": [
+          "256GB",
+          "512GB"
+        ],
+        "camera": {
+          "main": "50MP",
+          "ultraWide": "8MP",
+          "telephoto": "N/A",
+          "front": "20MP"
+        },
+        "battery": {
+          "capacity": "5000 mAh",
+          "charging": "90W wired"
+        },
+        "os": "Android 14 (HyperOS)",
+        "connectivity": [
+          "5G",
+          "Wi-Fi 6E",
+          "Bluetooth 5.4",
+          "USB-C"
+        ],
+        "waterResistance": "IP64"
+      },
+      "colors": [
+        "Black",
+        "Green",
+        "Titanium"
+      ],
+      "weight": "179g",
+      "dimensions": "160.5 x 74.5 x 8 mm",
+      "features": [
+        "90W charging",
+        "Snapdragon 8s Gen 3"
+      ]
+    },
+    {
+      "id": 112,
+      "brand": "Xiaomi",
+      "model": "Poco F6 Pro",
+      "price": 499,
+      "releaseDate": "2024-05-23",
+      "image": "https://fdn2.gsmarena.com/vv/pics/xiaomi/xiaomi-poco-f6-pro-1.jpg",
+      "specs": {
+        "display": {
+          "size": "6.67 inches",
+          "type": "AMOLED",
+          "resolution": "3200 x 1440",
+          "refreshRate": "120Hz"
+        },
+        "processor": "Snapdragon 8 Gen 2",
+        "ram": "12GB",
+        "storage": [
+          "256GB",
+          "512GB",
+          "1TB"
+        ],
+        "camera": {
+          "main": "50MP",
+          "ultraWide": "8MP",
+          "telephoto": "2MP macro",
+          "front": "16MP"
+        },
+        "battery": {
+          "capacity": "5000 mAh",
+          "charging": "120W wired"
+        },
+        "os": "Android 14 (HyperOS)",
+        "connectivity": [
+          "5G",
+          "Wi-Fi 7",
+          "Bluetooth 5.3",
+          "USB-C"
+        ],
+        "waterResistance": "IP54"
+      },
+      "colors": [
+        "Black",
+        "White"
+      ],
+      "weight": "209g",
+      "dimensions": "160.9 x 75 x 8.2 mm",
+      "features": [
+        "120W charging",
+        "QHD+ display"
+      ]
+    },
+    {
+      "id": 113,
+      "brand": "Xiaomi",
+      "model": "Poco X7",
+      "price": 249,
+      "releaseDate": "2025-01-09",
+      "image": "https://fdn2.gsmarena.com/vv/bigpic/xiaomi-poco-x7.jpg",
+      "specs": {
+        "display": {
+          "size": "6.67 inches",
+          "type": "AMOLED",
+          "resolution": "2712 x 1220",
+          "refreshRate": "120Hz"
+        },
+        "processor": "Dimensity 7300-Ultra",
+        "ram": "8GB",
+        "storage": [
+          "128GB",
+          "256GB"
+        ],
+        "camera": {
+          "main": "50MP",
+          "ultraWide": "8MP",
+          "telephoto": "2MP macro",
+          "front": "20MP"
+        },
+        "battery": {
+          "capacity": "5110 mAh",
+          "charging": "45W wired"
+        },
+        "os": "Android 15 (HyperOS 2)",
+        "connectivity": [
+          "5G",
+          "Wi-Fi 6",
+          "Bluetooth 5.4",
+          "USB-C"
+        ],
+        "waterResistance": "IP68"
+      },
+      "colors": [
+        "Black",
+        "Green",
+        "Silver"
+      ],
+      "weight": "185g",
+      "dimensions": "162.3 x 74.4 x 8.4 mm",
+      "features": [
+        "IP68",
+        "Curved AMOLED"
+      ]
+    },
+    {
+      "id": 114,
+      "brand": "Xiaomi",
+      "model": "Poco X7 Pro",
+      "price": 349,
+      "releaseDate": "2025-01-09",
+      "image": "https://fdn2.gsmarena.com/vv/pics/xiaomi/xiaomi-poco-x7-pro-1.jpg",
+      "specs": {
+        "display": {
+          "size": "6.67 inches",
+          "type": "AMOLED",
+          "resolution": "2712 x 1220",
+          "refreshRate": "120Hz"
+        },
+        "processor": "Dimensity 8400-Ultra",
+        "ram": "8GB",
+        "storage": [
+          "256GB",
+          "512GB"
+        ],
+        "camera": {
+          "main": "50MP",
+          "ultraWide": "8MP",
+          "telephoto": "N/A",
+          "front": "20MP"
+        },
+        "battery": {
+          "capacity": "6000 mAh",
+          "charging": "90W wired"
+        },
+        "os": "Android 15 (HyperOS 2)",
+        "connectivity": [
+          "5G",
+          "Wi-Fi 6",
+          "Bluetooth 5.4",
+          "USB-C"
+        ],
+        "waterResistance": "IP68"
+      },
+      "colors": [
+        "Black",
+        "Green",
+        "Yellow"
+      ],
+      "weight": "198g",
+      "dimensions": "160.8 x 75.2 x 8.3 mm",
+      "features": [
+        "6000 mAh battery",
+        "IP68"
+      ]
+    },
+    {
+      "id": 115,
+      "brand": "Xiaomi",
+      "model": "Redmi Note 13 5G",
+      "price": 229,
+      "releaseDate": "2024-01-15",
+      "image": "https://fdn2.gsmarena.com/vv/pics/xiaomi/xiaomi-redmi-note-13-5g-1.jpg",
+      "specs": {
+        "display": {
+          "size": "6.67 inches",
+          "type": "AMOLED",
+          "resolution": "2400 x 1080",
+          "refreshRate": "120Hz"
+        },
+        "processor": "Dimensity 6080",
+        "ram": "6GB",
+        "storage": [
+          "128GB",
+          "256GB"
+        ],
+        "camera": {
+          "main": "108MP",
+          "ultraWide": "8MP",
+          "telephoto": "2MP macro",
+          "front": "16MP"
+        },
+        "battery": {
+          "capacity": "5000 mAh",
+          "charging": "33W wired"
+        },
+        "os": "Android 13 (HyperOS / MIUI 14)",
+        "connectivity": [
+          "5G",
+          "Wi-Fi 5",
+          "Bluetooth 5.3",
+          "USB-C"
+        ],
+        "waterResistance": "IP54"
+      },
+      "colors": [
+        "Graphite Black",
+        "Arctic White",
+        "Ocean Teal"
+      ],
+      "weight": "174.5g",
+      "dimensions": "161.1 x 75 x 7.6 mm",
+      "features": [
+        "microSD slot",
+        "AMOLED display"
+      ]
+    },
+    {
+      "id": 116,
+      "brand": "Xiaomi",
+      "model": "Redmi Note 13 Pro+ 5G",
+      "price": 399,
+      "releaseDate": "2024-01-15",
+      "image": "https://fdn2.gsmarena.com/vv/pics/xiaomi/xiaomi-redmi-note-13-pro-plus-1.jpg",
+      "specs": {
+        "display": {
+          "size": "6.67 inches",
+          "type": "AMOLED",
+          "resolution": "2712 x 1220",
+          "refreshRate": "120Hz"
+        },
+        "processor": "Dimensity 7200-Ultra",
+        "ram": "8GB",
+        "storage": [
+          "256GB",
+          "512GB"
+        ],
+        "camera": {
+          "main": "200MP",
+          "ultraWide": "8MP",
+          "telephoto": "2MP macro",
+          "front": "16MP"
+        },
+        "battery": {
+          "capacity": "5000 mAh",
+          "charging": "120W wired"
+        },
+        "os": "Android 13 (HyperOS / MIUI 14)",
+        "connectivity": [
+          "5G",
+          "Wi-Fi 6",
+          "Bluetooth 5.3",
+          "USB-C"
+        ],
+        "waterResistance": "IP68"
+      },
+      "colors": [
+        "Midnight Black",
+        "Moonlight White",
+        "Aurora Purple"
+      ],
+      "weight": "199g",
+      "dimensions": "161.4 x 74.2 x 8.9 mm",
+      "features": [
+        "200MP camera",
+        "120W charging"
+      ]
+    },
+    {
+      "id": 117,
+      "brand": "Xiaomi",
+      "model": "Redmi Note 14 5G",
+      "price": 249,
+      "releaseDate": "2025-01-10",
+      "image": "https://fdn2.gsmarena.com/vv/pics/xiaomi/xiaomi-redmi-note-14-5g-1.jpg",
+      "specs": {
+        "display": {
+          "size": "6.67 inches",
+          "type": "AMOLED",
+          "resolution": "2400 x 1080",
+          "refreshRate": "120Hz"
+        },
+        "processor": "Dimensity 7025-Ultra",
+        "ram": "6GB",
+        "storage": [
+          "128GB",
+          "256GB"
+        ],
+        "camera": {
+          "main": "108MP",
+          "ultraWide": "8MP",
+          "telephoto": "2MP macro",
+          "front": "20MP"
+        },
+        "battery": {
+          "capacity": "5110 mAh",
+          "charging": "45W wired"
+        },
+        "os": "Android 14 (HyperOS)",
+        "connectivity": [
+          "5G",
+          "Wi-Fi 5",
+          "Bluetooth 5.3",
+          "USB-C"
+        ],
+        "waterResistance": "IP64"
+      },
+      "colors": [
+        "Midnight Black",
+        "Coral Green",
+        "Lavender Purple"
+      ],
+      "weight": "190g",
+      "dimensions": "162.4 x 75.7 x 8 mm",
+      "features": [
+        "microSD slot"
+      ]
+    },
+    {
+      "id": 118,
+      "brand": "Xiaomi",
+      "model": "Redmi Note 14 Pro 5G",
+      "price": 349,
+      "releaseDate": "2025-01-10",
+      "image": "https://fdn2.gsmarena.com/vv/pics/xiaomi/xiaomi-redmi-note-14-pro-5g-1.jpg",
+      "specs": {
+        "display": {
+          "size": "6.67 inches",
+          "type": "AMOLED",
+          "resolution": "2712 x 1220",
+          "refreshRate": "120Hz"
+        },
+        "processor": "Dimensity 7300-Ultra",
+        "ram": "8GB",
+        "storage": [
+          "256GB",
+          "512GB"
+        ],
+        "camera": {
+          "main": "200MP",
+          "ultraWide": "8MP",
+          "telephoto": "2MP macro",
+          "front": "20MP"
+        },
+        "battery": {
+          "capacity": "5110 mAh",
+          "charging": "45W wired"
+        },
+        "os": "Android 14 (HyperOS)",
+        "connectivity": [
+          "5G",
+          "Wi-Fi 6",
+          "Bluetooth 5.4",
+          "USB-C"
+        ],
+        "waterResistance": "IP68"
+      },
+      "colors": [
+        "Midnight Black",
+        "Coral Green",
+        "Lavender Purple"
+      ],
+      "weight": "190g",
+      "dimensions": "162.3 x 74.4 x 8.4 mm",
+      "features": [
+        "Curved display",
+        "200MP camera"
+      ]
+    },
+    {
+      "id": 119,
+      "brand": "Xiaomi",
+      "model": "Redmi Note 14 Pro+ 5G",
+      "price": 449,
+      "releaseDate": "2025-01-10",
+      "image": "https://fdn2.gsmarena.com/vv/pics/xiaomi/xiaomi-redmi-note-14-pro-plus-5g-1.jpg",
+      "specs": {
+        "display": {
+          "size": "6.67 inches",
+          "type": "AMOLED",
+          "resolution": "2712 x 1220",
+          "refreshRate": "120Hz"
+        },
+        "processor": "Snapdragon 7s Gen 3",
+        "ram": "8GB",
+        "storage": [
+          "256GB",
+          "512GB"
+        ],
+        "camera": {
+          "main": "200MP",
+          "ultraWide": "8MP",
+          "telephoto": "2MP macro",
+          "front": "20MP"
+        },
+        "battery": {
+          "capacity": "5110 mAh",
+          "charging": "120W wired"
+        },
+        "os": "Android 14 (HyperOS)",
+        "connectivity": [
+          "5G",
+          "Wi-Fi 6",
+          "Bluetooth 5.4",
+          "USB-C"
+        ],
+        "waterResistance": "IP68"
+      },
+      "colors": [
+        "Midnight Black",
+        "Lavender Purple",
+        "Frost Blue"
+      ],
+      "weight": "210g",
+      "dimensions": "162.5 x 74.7 x 8.8 mm",
+      "features": [
+        "200MP camera",
+        "120W charging"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Browse - Phones Compare</title>
+
+    <link rel="stylesheet" href="../stylesheet.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="icon" href="../assets/logo.png" type="image/png">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700;800&family=Space+Mono:wght@400;700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="logo">
+            <img src="../assets/logo.png" alt="Website logo">
+            <span class="logo-text">Phones<span class="accent">Compare</span></span>
+        </div>
+
+        <nav class="nav-bar">
+            <a href="../index.html" class="nav-link">Home</a>
+            <a href="phones.html" class="nav-link active">Browse</a>
+            <a href="compare.html" class="nav-link">Compare</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    <span class="title-line">Browse All</span>
+                    <span class="title-line gradient-text">Smartphones</span>
+                </h1>
+                <p class="hero-subtitle">Explore the latest phones with detailed specs and comparisons</p>
+            </div>
+            <div class="hero-decoration"></div>
+        </section>
+
+        <section class="content-section">
+            <div class="content-card">
+                <div class="card-header">
+                    <h2>Find Your Perfect Phone</h2>
+                    <div class="card-accent"></div>
+                    <p id="results-count" class="results-count">Loading phones...</p>
+                </div>
+
+                <!-- Filters -->
+                <div class="filters-section">
+                    <div id="filters-container"></div>
+                </div>
+
+                <!-- Phone Grid -->
+                <div class="phone-grid-container">
+                    <div id="phone-grid" class="phone-grid">
+                        <div class="loading">Loading phones...</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Floating compare tray — shown when phones are queued for comparison -->
+    <div id="compare-tray"></div>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-links">
+                <a href="popular-brands.html" class="footer-link">Popular Brands</a>
+                <a href="history.html" class="footer-link">Smartphone History</a>
+                <a href="citations.html" class="footer-link">Citations</a>
+                <a href="about.html" class="footer-link">About</a>
+            </div>
+            <p class="footer-text">© 2026 Phones Compare. Making phone shopping simple.</p>
+        </div>
+    </footer>
+
+    <script src="../js/loader.js"></script>
+</body>
+
+</html>
