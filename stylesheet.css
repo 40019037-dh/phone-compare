@@ -454,11 +454,13 @@ footer {
     transition: width 0.3s ease;
 }
 
-.footer-link:hover {
+.footer-link:hover,
+.footer-link.active {
     color: var(--accent-light);
 }
 
-.footer-link:hover::after {
+.footer-link:hover::after,
+.footer-link.active::after {
     width: 100%;
 }
 
